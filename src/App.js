@@ -171,6 +171,7 @@ function App() {
               Join our fast growing global team to unleash your full potential.
             </p>
             <h4>Technology Stack and Tools</h4>
+            <div className=" md:grid flex flew-row  md:grid-cols-4  md:gap-5 md:px-20 overflow-x-scroll"></div>
           </div>
           <div className=" hidden sm:grid sm:grid-cols-2">
             <div>
@@ -184,6 +185,27 @@ function App() {
             <div className="text-center">
               <img src={LatestTechnologyImage} alt={"LatestTechnologyImage"} />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-shark bg-tech-stack-bg bg-cover bg-no-repeat bg-center sm:h-[700px] flex flex-col justify-center items-center px-5">
+        <h1 className="py-20">Advanced and Updated Technology</h1>
+        <p className="mb-10">
+          Through this, your product will become a dominating candidate in the
+          industry. Utilizing cloud technology and extreme programming, it will
+          be a strong competitor. Not to mention highly sought after, as
+          consumers love state-of-the-art technology, which you will have by the
+          end of it.
+        </p>
+        <p>
+          PerfectzDigital offers not just technical training but a lifestyle.
+          Our service instills a fascination for technology and the perfect
+          skill set alongside it. Your workplace culture will include
+          tech-savviness, which attracts all sorts of investors.
+        </p>
+        <div className="  flex flew-row  overflow-x-scroll ">
+          <div className="h-40 w-40 bg-white shadow-sm flex flew-row justify-center items-center">
+            sdfdsf
           </div>
         </div>
       </div>

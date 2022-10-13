@@ -12,6 +12,7 @@ module.exports = {
         "service-arrow-bg": "url('/src/assets/images/service-bg.svg')",
         "globe-bg": "url('/src/assets/images/globe.png')",
         "our-service-bg": "url('/src/assets/images/our-service-bg.svg')",
+        "tech-stack-bg": "url('/src/assets/images/tech-stack-bg.svg')",
       },
       colors: {
         shark: "#191A1C",

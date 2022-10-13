@@ -11,6 +11,7 @@ import { ReactComponent as VolunteerActivism } from "./assets/images/volunteer_a
 import { ReactComponent as TravelExplore } from "./assets/images/travel_explore.svg";
 import { ReactComponent as MagicButton } from "./assets/images/magic_button.svg";
 import { ReactComponent as Dashboard } from "./assets/images/dashboard.svg";
+import  LatestTechnologyImage from "./assets/images/LatestTechnologyImage.svg";
 import Globe from "./assets/images/globe.png";
 
 
@@ -155,8 +156,36 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-white">
-        <div className="container mx-auto">dsda</div>
+      <div className="bg-wild_sand">
+        <div className="container mx-auto">
+          <div className="flex flex-col justify-center items-center sm:hidden">
+            <h1>LATEST TECHNOLOGY TRAINING PROGRAM</h1>
+            <div className="text-center ">
+              <img
+                src={LatestTechnologyImage}
+                alt={"LatestTechnologyImage"}
+                className={"object-scale-down h-48 w-96"}
+              />
+            </div>
+            <p>
+              Join our fast growing global team to unleash your full potential.
+            </p>
+            <h4>Technology Stack and Tools</h4>
+          </div>
+          <div className=" hidden sm:grid sm:grid-cols-2">
+            <div>
+              <h1>LATEST TECHNOLOGY TRAINING PROGRAM</h1>
+              <p>
+                Join our fast growing global team to unleash your full
+                potential.
+              </p>
+              <h4>Technology Stack and Tools</h4>
+            </div>
+            <div className="text-center">
+              <img src={LatestTechnologyImage} alt={"LatestTechnologyImage"} />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

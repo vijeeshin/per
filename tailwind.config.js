@@ -19,10 +19,11 @@ module.exports = {
         oslo_gray: "#8F9092",
         anzac: "#E1A83F",
         ebony_clay: "#25283A",
-        wild_sand:"#f5f5f5"
+        wild_sand: "#f5f5f5",
+        philippine_gray: "#92918F",
       },
     },
   },
   plugins: [],
 };
-``
+``;

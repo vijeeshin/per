@@ -11,9 +11,9 @@ import { ReactComponent as VolunteerActivism } from "./assets/images/volunteer_a
 import { ReactComponent as TravelExplore } from "./assets/images/travel_explore.svg";
 import { ReactComponent as MagicButton } from "./assets/images/magic_button.svg";
 import { ReactComponent as Dashboard } from "./assets/images/dashboard.svg";
-import  LatestTechnologyImage from "./assets/images/LatestTechnologyImage.svg";
+import LatestTechnologyImage from "./assets/images/LatestTechnologyImage.svg";
+import Android from "./assets/images/android.svg";
 import Globe from "./assets/images/globe.png";
-
 
 function App() {
   return (
@@ -158,31 +158,108 @@ function App() {
       </div>
       <div className="bg-wild_sand">
         <div className="container mx-auto">
-          <div className="flex flex-col justify-center items-center sm:hidden">
-            <h1>LATEST TECHNOLOGY TRAINING PROGRAM</h1>
-            <div className="text-center ">
+          <div className="flex flex-col justify-center items-center sm:hidden py-20">
+            <h1 className="font-montserrat font-semibold text-5xl mb-10">
+              LATEST TECHNOLOGY TRAINING PROGRAM
+            </h1>
+            <div className="text-center flex flex-row justify-center items-center">
               <img
                 src={LatestTechnologyImage}
                 alt={"LatestTechnologyImage"}
                 className={"object-scale-down h-48 w-96"}
               />
             </div>
-            <p>
+            <p className="font-lato font-normal text-[28px] text-philippine_gray mb-10">
               Join our fast growing global team to unleash your full potential.
             </p>
-            <h4>Technology Stack and Tools</h4>
-            <div className=" md:grid flex flew-row  md:grid-cols-4  md:gap-5 md:px-20 overflow-x-scroll"></div>
+            <h4 className="text-black font-lato text-[22px]">
+              Technology Stack and Tools
+            </h4>
+            <div className=" grid grid-cols-5 gap-1 py-10">
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <img src={Android} />
+              </div>
+            </div>
+            <button className=" bg-white border-2 border-anzac hover:bg-grey   py-2 px-4  inline-flex items-center">
+              <span className=" px-2 font-lato not-italic font-normal text-sm text-anzac">
+                VIEW ALL COURSES
+              </span>
+              <ArrowForward />
+            </button>
           </div>
-          <div className=" hidden sm:grid sm:grid-cols-2">
+          <div className=" hidden sm:grid sm:grid-cols-2 py-20">
             <div>
-              <h1>LATEST TECHNOLOGY TRAINING PROGRAM</h1>
-              <p>
+              <h1 className="font-montserrat font-semibold text-5xl mb-10">
+                LATEST TECHNOLOGY TRAINING PROGRAM
+              </h1>
+              <p className="font-lato font-normal text-[28px] text-philippine_gray mb-10">
                 Join our fast growing global team to unleash your full
                 potential.
               </p>
-              <h4>Technology Stack and Tools</h4>
+              <h4 className="text-black font-lato text-[22px]">
+                Technology Stack and Tools
+              </h4>
+              <div className=" grid grid-cols-5 gap-1 py-10">
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                  <img src={Android} />
+                </div>
+              </div>
+              <button className=" bg-white border-2 border-anzac hover:bg-grey   py-2 px-4  inline-flex items-center">
+                <span className=" px-2 font-lato not-italic font-normal text-sm text-anzac">
+                  VIEW ALL COURSES
+                </span>
+                <ArrowForward />
+              </button>
             </div>
-            <div className="text-center">
+            <div className="text-center flex flex-row justify-center items-center">
               <img src={LatestTechnologyImage} alt={"LatestTechnologyImage"} />
             </div>
           </div>

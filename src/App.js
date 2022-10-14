@@ -12,7 +12,9 @@ import { ReactComponent as TravelExplore } from "./assets/images/travel_explore.
 import { ReactComponent as MagicButton } from "./assets/images/magic_button.svg";
 import { ReactComponent as Dashboard } from "./assets/images/dashboard.svg";
 import LatestTechnologyImage from "./assets/images/LatestTechnologyImage.svg";
+import Designhead from "./assets/images/designhead.svg";
 import Android from "./assets/images/android.svg";
+import OurServiceImg from "./assets/images/our-services.svg";
 import Globe from "./assets/images/globe.png";
 
 function App() {
@@ -99,7 +101,9 @@ function App() {
       <div className="bg-our-service-bg bg-no-repeat bg-cover ">
         <div className="container  mx-auto">
           <div className="py-20 flex flex-col justify-center items-center">
-            <h1 className="text-white">Our Services</h1>
+            <h1 className="text-white font-semibold text-[48px] font-montserrat">
+              Our Services
+            </h1>
           </div>
           <div className=" md:grid flex flew-row  md:grid-cols-4  md:gap-5 md:px-20 overflow-x-scroll">
             <div className="bg-ebony_clay/50 px-5 mx-5 md:mx-0 py-10  md:w-auto w-80 ">
@@ -176,31 +180,31 @@ function App() {
               Technology Stack and Tools
             </h4>
             <div className=" grid grid-cols-5 gap-1 py-10">
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
-              <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className="p-5 bg-white flex flex-row justify-center items-center">
                 <img src={Android} />
               </div>
             </div>
@@ -223,32 +227,32 @@ function App() {
               <h4 className="text-black font-lato text-[22px]">
                 Technology Stack and Tools
               </h4>
-              <div className=" grid grid-cols-5 gap-1 py-10">
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+              <div className=" grid grid-cols-5 grid gap-1 py-10">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
-                <div className="w-20 h-20 bg-white flex flex-row justify-center items-center">
+                <div className=" p-5 bg-white flex flex-row justify-center items-center">
                   <img src={Android} />
                 </div>
               </div>
@@ -266,23 +270,79 @@ function App() {
         </div>
       </div>
       <div className="bg-shark bg-tech-stack-bg bg-cover bg-no-repeat bg-center sm:h-[700px] flex flex-col justify-center items-center px-5">
-        <h1 className="py-20">Advanced and Updated Technology</h1>
-        <p className="mb-10">
-          Through this, your product will become a dominating candidate in the
-          industry. Utilizing cloud technology and extreme programming, it will
-          be a strong competitor. Not to mention highly sought after, as
-          consumers love state-of-the-art technology, which you will have by the
-          end of it.
-        </p>
-        <p>
-          PerfectzDigital offers not just technical training but a lifestyle.
-          Our service instills a fascination for technology and the perfect
-          skill set alongside it. Your workplace culture will include
-          tech-savviness, which attracts all sorts of investors.
-        </p>
-        <div className="  flex flew-row  overflow-x-scroll ">
-          <div className="h-40 w-40 bg-white shadow-sm flex flew-row justify-center items-center">
-            sdfdsf
+        <h1 className="py-20 text-anzac font-semibold text-[48px] font-montserrat">
+          Advanced and Updated Technology
+        </h1>
+        <div className="px-20">
+          <p className="mb-10 font-lato text-white text-justify">
+            Through this, your product will become a dominating candidate in the
+            industry. Utilizing cloud technology and extreme programming, it
+            will be a strong competitor. Not to mention highly sought after, as
+            consumers love state-of-the-art technology, which you will have by
+            the end of it.
+          </p>
+          <p className="mb-10 font-lato text-white text-justify">
+            PerfectzDigital offers not just technical training but a lifestyle.
+            Our service instills a fascination for technology and the perfect
+            skill set alongside it. Your workplace culture will include
+            tech-savviness, which attracts all sorts of investors.
+          </p>
+        </div>
+      </div>
+
+      <div className="bg-wild_sand">
+        <div className=" flex flex-col items-center justify-center  py-20 px-44">
+          <img src={Designhead} />
+          <h1 className="text-center text-5xl font-semibold text-gray-800 font-montserrat py-5">
+            Refresh Your Brands’ with our <br />
+            World class designers
+          </h1>
+          <p class="text-center text-3xl text-gray-400 font-lato mb-10">
+            We believe “Mobile first design” principle is the core of any
+            product design.
+          </p>
+          <div class="flex items-center justify-start  bg-anzac px-4 py-2.5">
+            <p class="text-sm font-medium text-white font-lato">KNOW MORE</p>
+            <div class="h-full">
+              <div class="flex h-full flex-1 items-center justify-center px-1.5 py-0.5">
+                <ArrowForward />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-anzac  py-10">
+        <div className="container mx-auto bg-hand-shake-bg bg-right bg-contain  bg-no-repeat">
+          <div className="grid grid-col-1 px-20 py-44">
+            <h1 className="text-8xl font-bold text-white font-montserrat mb-5">
+              Hello!
+            </h1>
+            <p className="text-5xl font-bold leading-10 text-white font-lato mb-5">
+              Why settle for a vendor <br />
+              when you need is a partner?
+            </p>
+            <div className="w-auto">
+              <div className=" inline-flex  items-center justify-start px-4 py-2.5  bg-white border border-anzac">
+                <p className="text-sm font-medium text-anzac">CONTACT US NOW</p>
+                <div className="w-5 h-full">
+                  <div className="flex items-center justify-center flex-1 h-full py-0.5 pl-1 pr-0.5">
+                    <ArrowForward />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-shark bg-client-bg bg-center bg-cover py-44">
+        <div className="container mx-auto">
+          <div className="grid grid-col-1 ">
+            <h1 className=" text-5xl font-semibold text-white font-montserrat text-center">
+              Our Clients
+            </h1>
+            <div className="grid grid-flow-row grid-cols-2 gap-2 md:grid-cols-4">
+              <div className="p-10 h-full bg-gray-800"></div>
+            </div>
           </div>
         </div>
       </div>

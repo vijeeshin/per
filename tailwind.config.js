@@ -13,6 +13,8 @@ module.exports = {
         "globe-bg": "url('/src/assets/images/globe.png')",
         "our-service-bg": "url('/src/assets/images/our-service-bg.svg')",
         "tech-stack-bg": "url('/src/assets/images/tech-stack-bg.svg')",
+        "hand-shake-bg": "url('/src/assets/images/handshake.svg')",
+        "client-bg": "url('/src/assets/images/clientbg.svg')",
       },
       colors: {
         shark: "#191A1C",

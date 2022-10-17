@@ -10,13 +10,12 @@ import { ReactComponent as Social } from "./assets/images/social.svg";
 import UIUX from "./assets/images/ui-ux.svg";
 import mobile from "./assets/images/mobile.svg";
 import alarm_on from "./assets/images/alarm_on.svg";
-import contactus from  './assets/images/contactus.svg'
-import nest_remote_comfort_sensor from  './assets/images/nest_remote_comfort_sensor.svg'
+import contactus from "./assets/images/contactus.svg";
+import nest_remote_comfort_sensor from "./assets/images/nest_remote_comfort_sensor.svg";
 import signal_cellular_3_bar from "./assets/images/signal_cellular_3_bar.svg";
 import angular from "./assets/images/angular.svg";
 
-
-function App() {
+function Courses() {
   return (
     <>
       <div className={"bg-shark "}>
@@ -253,4 +252,4 @@ function App() {
   );
 }
 
-export default App;
+export default Courses;

@@ -15,6 +15,8 @@ module.exports = {
         "tech-stack-bg": "url('/src/assets/images/tech-stack-bg.svg')",
         "hand-shake-bg": "url('/src/assets/images/handshake.svg')",
         "client-bg": "url('/src/assets/images/clientbg.svg')",
+        "contact": "url('/src/assets/images/contact-bg.svg')",
+        "common": "url('/src/assets/images/common.svg')",
       },
       colors: {
         shark: "#191A1C",

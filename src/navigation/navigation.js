@@ -11,15 +11,15 @@ export const Navigation = () => {
   return (
     <Routes>
       <Route path="/per/" element={<Home />} />
-      <Route path="/per/services/" element={<Services />} />
-      <Route path="/per/courses/" element={<Courses />} />
-      <Route path="/per/contact/" element={<Contact />} />
+      <Route path="/services/" element={<Services />} />
+      <Route path="/courses/" element={<Courses />} />
+      <Route path="/contact/" element={<Contact />} />
       <Route
-        path="/per/services/technology-transformation"
+        path="/services/technology-transformation"
         element={<TechnologyTransform />}
       />
       <Route
-        path="/per/services/team-building"
+        path="/services/team-building"
         element={<TeamBuilding />}
       />
     </Routes>

@@ -8,10 +8,10 @@ import Services from '../screen/Services';
 export const Navigation = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/courses" element={<Courses />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/per/" element={<Home />} />
+      <Route path="/per/services" element={<Services />} />
+      <Route path="/per/courses" element={<Courses />} />
+      <Route path="/per/contact" element={<Contact />} />
     </Routes>
   );
 }

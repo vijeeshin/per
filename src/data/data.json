@@ -116,12 +116,72 @@
       "desc": " Why settle for a vendor when you need is a partner?",
       "url": "/contact"
     },
-    "clients":[
-         {
-           "image": "https://vijeeshin.github.io/per/assets/images/clients/cakap",
-           "name": "cakap",
-           "url": "/"
-         }
+    "clients": [
+      {
+        "image": "https://vijeeshin.github.io/per/assets/images/clients/cakap",
+        "name": "cakap",
+        "url": "/"
+      }
     ]
+  },
+
+  "technology_transformation_page": {
+    "title": "TECHNOLOGY TRANSFORMATION",
+    "subList": [
+      "First-hand practical training sessions ",
+      "Intensive run-through of the popular technological frameworks",
+      "Use of extreme programming and cloud softwares"
+    ],
+    "section_one": {
+      "title": "Advanced and Updated Technology",
+      "desc": "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
+      "url": "/contact",
+      "tagline":"Schedule an appointment now!"
+    },
+    "section_two": {
+      "title": "Our Team",
+      "paras": [
+        "Our team is hyper-focused on training clients in curating a progressive tech system specific to them. Intensive sessions are scheduled with the client's engineers to adequately guide them in the upkeep of their technology. This goes on continuously till the client's IT team is thoroughly prepared. "
+      ],
+      "tagline": "Learn how to innovate, imagine, and create!"
+    },
+    "section_three": {
+      "title": "Learn how to innovate, imagine, and create!",
+      "paras": [
+        "We're not just teaching you the ins and outs of technology; we're laying the foundation for transformation so that your team adapts to the changing tech atmosphere on its own. So that your company is immersed in modern-day systems for the best performance.  "
+      ],
+      "tagline": "Fill out the form now! "
+    }
+  },
+  "team_building_page": {
+    "title": "Team Building",
+    "subList": [
+      "Meticulously designed list of carefully screened candidates ",
+      "Client chooses final candidates and holds total control",
+      "Seamless merger of pre-existing and newly crafted teams"
+    ],
+    "section_one": {
+      "title": "The Perfect Package",
+      "desc": "What's a good interface without a brilliant team? We're often approached with issues regarding an overburdened staff. Though we interact with highly qualified individuals each day, something seems to be missing. Trust, connection, synergy. ",
+      "url": "/contact",
+      "tagline": "Behind every best-selling product are an expert and devoted team!"
+    },
+    "section_two": {
+      "title": "You're the boss; we're simply the messengers!",
+      "paras": [
+        "We create an extended team for you. To help lighten the load off your current employees, we bring on more. This means more expertise, more talent, and increased efficiency. We act as a bridge through which you can access a workforce that is trained and highly motivated. ",
+        "We start by accepting interested applicants after issuing a thoroughly-detailed job description. We leave nothing unsaid so that the process is consensual and ethical. Throughout this, the client is involved – so you miss out on nothing!"
+      ],
+      "tagline": ""
+    },
+    "section_three": {
+      "title": "You have full control!",
+      "paras": [
+        "Our clients play the biggest role in curating an extended team. Screening and interviews of the candidates will involve you. This is to ensure clients join hands with individuals that fit the work culture and demands.",
+        "Once the applicants are added to your team, you have full authority. We will step back and let you take the reins. Consequently, you will manage, spread out, and review all your new team members.",
+        "It is important to remember they will not overtake the pre-existing staff. Rather it is a beautiful merger of honed skill and effort to aid in the creation of the bigger picture. "
+      ],
+      "tagline": "Sign up now! "
+    }
   }
 }

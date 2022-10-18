@@ -11,9 +11,9 @@ export const Navigation = () => {
   return (
     <Routes>
       <Route path="/per/" element={<Home />} />
-      <Route path="/per/services" element={<Services />} />
-      <Route path="/per/courses" element={<Courses />} />
-      <Route path="/per/contact" element={<Contact />} />
+      <Route path="/per/services/" element={<Services />} />
+      <Route path="/per/courses/" element={<Courses />} />
+      <Route path="/per/contact/" element={<Contact />} />
       <Route
         path="/per/services/technology-transformation"
         element={<TechnologyTransform />}

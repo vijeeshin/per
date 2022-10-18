@@ -8,8 +8,8 @@ import { ReactComponent as Social } from "../assets/images/social.svg";
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as Letter } from "../assets/images/letter.svg";
 import { ReactComponent as Menu } from "../assets/images/menu.svg";
-import technologytransform from "../assets/images/tech_transform.svg";
-import our_team from "../assets/images/our_team.svg";
+import team_builiding from "../assets/images/team_builiding.svg";
+import computer_lock from "../assets/images/computer_lock.svg";
 import label from "../assets/images/label.svg";
 
 export const TeamBuilding = () => {
@@ -88,7 +88,7 @@ export const TeamBuilding = () => {
         <div className="grid grid-row grid-cols-1 lg:grid-rows-1  grid-rows-1 lg:grid-cols-2">
           <div className="hidden lg:block">
             <div className="bg-common bg-center hidden md:block  text-center  bg-no-repeat relative top-[-43px] h-[32rem]">
-              <img src={technologytransform} className={"inline mt-10"} />
+              <img src={team_builiding} className={"inline mt-10"} />
             </div>
           </div>
           <div className="flex flex-col justify-center items-start px-5 py-10">
@@ -96,7 +96,7 @@ export const TeamBuilding = () => {
               {data.team_building_page.section_one.title}
             </h1>
             <div className="w-full flex flex-row justify-center items-center p-5 lg:hidden">
-              <img src={technologytransform} />
+              <img src={team_builiding} />
             </div>
             <p className="text-xl leading-loose text-gray-400 mb-5 font-lato">
               {data.team_building_page.section_one.desc}
@@ -141,7 +141,7 @@ export const TeamBuilding = () => {
               </p>
             </div>
             <div className="col-span-1">
-              <img src={our_team} />
+              <img src={computer_lock} />
             </div>
           </div>
 

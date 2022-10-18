@@ -5,21 +5,21 @@
         "title": "Design and Build Your Tech-Team",
         "desc": "You’ve come to the right place for fast-track services! Build your team of highly trained professionals seamlessly.",
         "sub": "Design and build your dream team with us!",
-        "image": "http://localhost:3000/assets/images/hero-object-1.svg",
+        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-1.svg",
         "btnUrl": "/services"
       },
       {
         "title": "On-Demand IT Services",
         "desc": "Our available IT talents are committed and diligent individuals who face problems with you, head on. We’ve got your backs, whether it’s training or design.",
         "sub": "No nonsense, no delays, no barriers!",
-        "image": "http://localhost:3000/assets/images/hero-object-2.svg",
+        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-2.svg",
         "btnUrl": "/services"
       },
       {
         "title": "We Help Transform",
         "desc": "Our clients are inspiring pioneers. We provide cutting-edge services that transform your dreams into reality.",
         "sub": "Tech done the way you want, done right!",
-        "image": "http://localhost:3000/assets/images/hero-object-3.svg",
+        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-3.svg",
         "btnUrl": "/services"
       }
     ],
@@ -32,44 +32,44 @@
       {
         "uid": 1,
         "title": "TECH TRANSFORMATION",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/attractions.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/attractions.svg"
       },
       {
         "uid": 2,
         "title": "TEAM BUILDING",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/stream.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/stream.svg"
       },
       {
         "uid": 3,
         "title": "TALENTS ON DEMAND",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/ads_click.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/ads_click.svg"
       },
       {
         "uid": 4,
         "title": "PRODUCT MANAGEMENT",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/volunteer_activism.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/volunteer_activism.svg"
       },
       {
         "uid": 5,
         "title": "DISCOVERY WORKSHOP",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/travel_explore.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/travel_explore.svg"
       },
       {
         "uid": 6,
         "title": "LATEST TECHNOLOGY TRAINING",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/magic_button.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/magic_button.svg"
       },
       {
         "uid": 7,
         "title": "UIUX DESIGN",
-        "url": "http://localhost:3000/services/",
-        "image": "http://localhost:3000/assets/images/home_services/dashboard.svg"
+        "url": "https://vijeeshin.github.io/per/services/",
+        "image": "https://vijeeshin.github.io/per/assets/images/home_services/dashboard.svg"
       }
     ],
     "latest_technology": {
@@ -77,7 +77,7 @@
       "subTitle": "Join our fast growing global team to unleash your full potential.",
       "tools": [
         {
-          "image": "http://localhost:3000/assets/images/tools/android.svg",
+          "image": "https://vijeeshin.github.io/per/assets/images/tools/android.svg",
           "name": "Android",
           "url": "/"
         }
@@ -95,7 +95,7 @@
       ],
       "technologies": [
         {
-          "image": "http://localhost:3000/assets/images/tools/android.svg",
+          "image": "https://vijeeshin.github.io/per/assets/images/tools/android.svg",
           "name": "Android",
           "url": "/"
         }
@@ -118,7 +118,7 @@
     },
     "clients":[
          {
-           "image": "http://localhost:3000/assets/images/clients/cakap",
+           "image": "https://vijeeshin.github.io/per/assets/images/clients/cakap",
            "name": "cakap",
            "url": "/"
          }

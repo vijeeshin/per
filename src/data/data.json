@@ -1,0 +1,127 @@
+{
+  "home": {
+    "carousal": [
+      {
+        "title": "Design and Build Your Tech-Team",
+        "desc": "You’ve come to the right place for fast-track services! Build your team of highly trained professionals seamlessly.",
+        "sub": "Design and build your dream team with us!",
+        "image": "http://localhost:3000/assets/images/hero-object-1.svg",
+        "btnUrl": "/services"
+      },
+      {
+        "title": "On-Demand IT Services",
+        "desc": "Our available IT talents are committed and diligent individuals who face problems with you, head on. We’ve got your backs, whether it’s training or design.",
+        "sub": "No nonsense, no delays, no barriers!",
+        "image": "http://localhost:3000/assets/images/hero-object-2.svg",
+        "btnUrl": "/services"
+      },
+      {
+        "title": "We Help Transform",
+        "desc": "Our clients are inspiring pioneers. We provide cutting-edge services that transform your dreams into reality.",
+        "sub": "Tech done the way you want, done right!",
+        "image": "http://localhost:3000/assets/images/hero-object-3.svg",
+        "btnUrl": "/services"
+      }
+    ],
+    "section_1": {
+      "title": "COMPLETE CLIENT SUCCESS",
+      "desc": "We're the free-flowing gateway between you and your milestone of success!",
+      "url": "/contact"
+    },
+    "services": [
+      {
+        "uid": 1,
+        "title": "TECH TRANSFORMATION",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/attractions.svg"
+      },
+      {
+        "uid": 2,
+        "title": "TEAM BUILDING",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/stream.svg"
+      },
+      {
+        "uid": 3,
+        "title": "TALENTS ON DEMAND",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/ads_click.svg"
+      },
+      {
+        "uid": 4,
+        "title": "PRODUCT MANAGEMENT",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/volunteer_activism.svg"
+      },
+      {
+        "uid": 5,
+        "title": "DISCOVERY WORKSHOP",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/travel_explore.svg"
+      },
+      {
+        "uid": 6,
+        "title": "LATEST TECHNOLOGY TRAINING",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/magic_button.svg"
+      },
+      {
+        "uid": 7,
+        "title": "UIUX DESIGN",
+        "url": "http://localhost:3000/services/",
+        "image": "http://localhost:3000/assets/images/home_services/dashboard.svg"
+      }
+    ],
+    "latest_technology": {
+      "title": "LATEST TECHNOLOGY TRAINING PROGRAM",
+      "subTitle": "Join our fast growing global team to unleash your full potential.",
+      "tools": [
+        {
+          "image": "http://localhost:3000/assets/images/tools/android.svg",
+          "name": "Android",
+          "url": "/"
+        }
+      ]
+    },
+    "advanced_technology": {
+      "title": "Advanced and Updated Technology",
+      "desc": [
+        {
+          "para": "Through this, your product will become a dominating candidate in the industry. Utilizing cloud technology and extreme programming, it will be a strong competitor. Not to mention highly sought after, as consumers love state-of-the-art technology, which you will have by the end of it."
+        },
+        {
+          "para": "PerfectzDigital offers not just technical training but a lifestyle. Our service instills a fascination for technology and the perfect skill set alongside it. Your workplace culture will include tech-savviness, which attracts all sorts of investors."
+        }
+      ],
+      "technologies": [
+        {
+          "image": "http://localhost:3000/assets/images/tools/android.svg",
+          "name": "Android",
+          "url": "/"
+        }
+      ]
+    },
+    "help": {
+      "title": "Help us help you!",
+      "desc": "All you need to do is contact us. Let's walk the path of technological development together to come out as an industry giant.",
+      "url": "/contact"
+    },
+    "brand": {
+      "title": "Refresh Your Brands’ with our World class designers",
+      "desc": "We believe “Mobile first design” principle is the core of any product design.",
+      "know_more_link": ""
+    },
+    "hello": {
+      "title": "Hello!",
+      "desc": " Why settle for a vendor when you need is a partner?",
+      "url": "/contact"
+    },
+    "clients":[
+         {
+           "image": "http://localhost:3000/assets/images/clients/cakap",
+           "name": "cakap",
+           "url": "/"
+         }
+    ]
+  }
+}

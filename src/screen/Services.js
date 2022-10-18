@@ -67,14 +67,14 @@ function Services() {
         <div className="container mx-auto">
           <div className="grid grid-col grid-cols-1">
             <div className="flex flex-wrap  justify-center items-center">
-              <div className="bg-white shadow-sm flex flex-col justify-center items-center p-10 m-10">
+              <div className="bg-white shadow-sm flex flex-row md:flex-col justify-between md:justify-center  items-center p-10 m-10">
                 <img src={attractionsyellow} />
                 <p className="text-4xl font-semibold text-center">
                   Tech Transformation
                 </p>
               </div>
 
-              <div className="bg-white shadow-sm flex flex-col justify-center items-center p-10 m-10">
+              <div className="bg-white shadow-sm flex flex-row md:flex-col  justify-between md:justify-center items-center p-10 m-10">
                 <img src={attractionsyellow} />
                 <p className="text-4xl font-semibold text-center">
                   Tech Transformation

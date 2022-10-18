@@ -1,19 +1,19 @@
-import "./App.css";
-import { ReactComponent as Logo } from "./assets/images/logo.svg";
-import { ReactComponent as Letter } from "./assets/images/letter.svg";
-import { ReactComponent as Menu } from "./assets/images/menu.svg";
-import { ReactComponent as ArrowForward } from "./assets/images/arrow-forward-ios.svg";
-import { ReactComponent as BlackLogo } from "./assets/images/black-logo.svg";
-import { ReactComponent as BlackMail } from "./assets/images/black-mail.svg";
-import { ReactComponent as Flag } from "./assets/images/flag.svg";
-import { ReactComponent as Social } from "./assets/images/social.svg";
-import UIUX from "./assets/images/ui-ux.svg";
-import mobile from "./assets/images/mobile.svg";
-import alarm_on from "./assets/images/alarm_on.svg";
-import contactus from "./assets/images/contactus.svg";
-import nest_remote_comfort_sensor from "./assets/images/nest_remote_comfort_sensor.svg";
-import signal_cellular_3_bar from "./assets/images/signal_cellular_3_bar.svg";
-import angular from "./assets/images/angular.svg";
+import "../App.css";
+import { ReactComponent as Logo } from "../assets/images/logo.svg";
+import { ReactComponent as Letter } from "../assets/images/letter.svg";
+import { ReactComponent as Menu } from "../assets/images/menu.svg";
+import { ReactComponent as ArrowForward } from "../assets/images/arrow-forward-ios.svg";
+import { ReactComponent as BlackLogo } from "../assets/images/black-logo.svg";
+import { ReactComponent as BlackMail } from "../assets/images/black-mail.svg";
+import { ReactComponent as Flag } from "../assets/images/flag.svg";
+import { ReactComponent as Social } from "../assets/images/social.svg";
+import UIUX from "../assets/images/ui-ux.svg";
+import mobile from "../assets/images/mobile.svg";
+import alarm_on from "../assets/images/alarm_on.svg";
+import contactus from "../assets/images/contactus.svg";
+import nest_remote_comfort_sensor from "../assets/images/nest_remote_comfort_sensor.svg";
+import signal_cellular_3_bar from "../assets/images/signal_cellular_3_bar.svg";
+import angular from "../assets/images/angular.svg";
 
 function Courses() {
   return (

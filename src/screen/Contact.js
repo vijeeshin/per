@@ -1,19 +1,19 @@
-import "./App.css";
-import { ReactComponent as Logo } from "./assets/images/logo.svg";
-import { ReactComponent as Letter } from "./assets/images/letter.svg";
-import { ReactComponent as Menu } from "./assets/images/menu.svg";
-import { ReactComponent as ArrowForward } from "./assets/images/arrow-forward-ios.svg";
-import { ReactComponent as BlackLogo } from "./assets/images/black-logo.svg";
-import { ReactComponent as BlackMail } from "./assets/images/black-mail.svg";
-import { ReactComponent as Flag } from "./assets/images/flag.svg";
-import { ReactComponent as Social } from "./assets/images/social.svg";
-import UIUX from "./assets/images/ui-ux.svg";
-import manmobile from "./assets/images/man-mobile.svg";
+import "../App.css";
+import { ReactComponent as Logo } from "../assets/images/logo.svg";
+import { ReactComponent as Letter } from "../assets/images/letter.svg";
+import { ReactComponent as Menu } from "../assets/images/menu.svg";
+import { ReactComponent as ArrowForward } from "../assets/images/arrow-forward-ios.svg";
+import { ReactComponent as BlackLogo } from "../assets/images/black-logo.svg";
+import { ReactComponent as BlackMail } from "../assets/images/black-mail.svg";
+import { ReactComponent as Flag } from "../assets/images/flag.svg";
+import { ReactComponent as Social } from "../assets/images/social.svg";
+import UIUX from "../assets/images/ui-ux.svg";
+import manmobile from "../assets/images/man-mobile.svg";
 
-import contactus from  './assets/images/contactus.svg'
+import contactus from  '../assets/images/contactus.svg'
 
 
-function App() {
+function Contact() {
   return (
     <>
       <div className={"bg-shark "}>
@@ -139,4 +139,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;

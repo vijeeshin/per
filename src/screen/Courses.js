@@ -10,7 +10,7 @@ import { ReactComponent as Social } from "../assets/images/social.svg";
 import UIUX from "../assets/images/ui-ux.svg";
 import mobile from "../assets/images/mobile.svg";
 import alarm_on from "../assets/images/alarm_on.svg";
-import contactus from "../assets/images/contactus.svg";
+import courses_box from "../assets/images/courses_box.svg";
 import nest_remote_comfort_sensor from "../assets/images/nest_remote_comfort_sensor.svg";
 import signal_cellular_3_bar from "../assets/images/signal_cellular_3_bar.svg";
 import angular from "../assets/images/angular.svg";
@@ -48,7 +48,7 @@ function Courses() {
                   </h1>
                 </div>
                 <div className="flex flex-row justify-end items-start text-center">
-                  <img src={contactus} />
+                  <img src={courses_box} />
                 </div>
               </div>
               {/** small Screen */}
@@ -57,7 +57,7 @@ function Courses() {
                   On-Demand Talent
                 </h1>
                 <div className="flex flex-col justify-center items-start">
-                  <img src={contactus} />
+                  <img src={courses_box} />
                 </div>
               </div>
               {/** small Screen */}

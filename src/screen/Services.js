@@ -7,12 +7,14 @@ import { ReactComponent as BlackLogo } from "../assets/images/black-logo.svg";
 import { ReactComponent as BlackMail } from "../assets/images/black-mail.svg";
 import { ReactComponent as Flag } from "../assets/images/flag.svg";
 import { ReactComponent as Social } from "../assets/images/social.svg";
-import UIUX from "../assets/images/ui-ux.svg";
+import services_box from "../assets/images/services_box.svg";
 import attractionsyellow from "../assets/images/attractions-yellow.svg";
 
 import contactus from "../assets/images/contactus.svg";
 
+
 function Services() {
+  const data = require('../data/data.json');
   return (
     <>
       <div className={"bg-shark "}>
@@ -41,20 +43,20 @@ function Services() {
               <div className=" hidden md:grid md:grid-cols-2 py-44 px-20 ">
                 <div>
                   <h1 className="font-montserrat not-italic font-bold lg:text-6xl md:text-4xl  text-white pt-20 pb-10">
-                    Let's collaborate and make history!
+                    {data.services.title}
                   </h1>
                 </div>
                 <div className="flex flex-row justify-end items-start text-center">
-                  <img src={contactus} />
+                  <img src={services_box} />
                 </div>
               </div>
               {/** small Screen */}
               <div className="md:hidden flex flex-col items-center justify-center py-20 px-5">
                 <h1 className="font-montserrat not-italic font-bold text-4xl text-center text-white pt-10 pb-10">
-                  On-Demand Talent
+                  {data.services.title}
                 </h1>
                 <div className="flex flex-col justify-center items-start">
-                  <img src={contactus} />
+                  <img src={services_box} />
                 </div>
               </div>
               {/** small Screen */}
@@ -65,21 +67,34 @@ function Services() {
 
       <div className="bg-gray-100">
         <div className="container mx-auto">
+          <p className="text-2xl leading-9 text-gray-400 px-20 py-10 font-lato">
+            {data.services.desc}
+          </p>
           <div className="grid grid-col grid-cols-1">
             <div className="flex flex-wrap  justify-center items-center">
-              <div className="bg-white shadow-sm flex flex-row md:flex-col justify-between md:justify-center  items-center p-10 m-10">
-                <img src={attractionsyellow} />
-                <p className="text-4xl font-semibold text-center">
-                  Tech Transformation
-                </p>
-              </div>
+              {data.services.services.map((service, index) => (
+                <div
+                  className="bg-white shadow-sm flex flex-col justify-between md:justify-center  items-center p-10 m-10"
+                  key={`service-${index}`}
+                >
+                  <img src={service.image} />
+                  <p className="text-4xl font-semibold text-center font-montserrat">
+                    {service.title}
+                  </p>
+                  <a className="inline-flex space-x-2.5 items-center justify-start px-4 py-2.5 bg-anzac my-5" href={service.url}>
+                    <p className="text-sm font-medium text-white">
+                      DISCOVER MORE
+                    </p>
+                    <div className="w-5 h-full">
+                      <div className="flex items-center justify-center flex-1 h-full px-1.5 py-0.5 ">
+                        <ArrowForward />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              ))}
 
-              <div className="bg-white shadow-sm flex flex-row md:flex-col  justify-between md:justify-center items-center p-10 m-10">
-                <img src={attractionsyellow} />
-                <p className="text-4xl font-semibold text-center">
-                  Tech Transformation
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>

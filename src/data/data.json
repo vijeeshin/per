@@ -136,7 +136,7 @@
       "title": "Advanced and Updated Technology",
       "desc": "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
       "url": "/contact",
-      "tagline":"Schedule an appointment now!"
+      "tagline": "Schedule an appointment now!"
     },
     "section_two": {
       "title": "Our Team",
@@ -183,5 +183,147 @@
       ],
       "tagline": "Sign up now! "
     }
+  },
+  "on_demand_talent_page": {
+    "title": "On-Demand Talent",
+    "subList": [
+      "A diverse inventory of highly trained and experienced professionals ",
+      "Communicate with industry experts to select your talent",
+      "Long-term Connection, Guaranteed "
+    ],
+    "section_one": {
+      "title": "Start your journey now!",
+      "desc": "Through our on-demand service, we give you an avenue to game-changing talent. We've got an inventory of professionals and experts across several fields. Limiting our clients in terms of help doesn't align with our modus operandi. Instead, we want you to prosper in every aspect of your operation. ",
+      "url": "/contact",
+      "tagline": "We hand-pick talent that is the missing puzzle piece you've been looking for! "
+    },
+    "section_two": {
+      "title": "The A-Team You Need",
+      "paras": [
+        "These are highly qualified and experienced software engineers, architects, designers, developers, and product managers. They know their field like the back of their hand – and they're waiting to show you! ",
+        "The process begins with you getting in touch with one of our industry experts. Clients are required to explain their selection criteria, goals, and workplace environment. Within 72 hours, we'll deliver a list of talent we think is best suited to you. ",
+        "Then, clients work with carefully selected talent to get a feel of what it will be like employing them in the long run. You may arrange a trial setting with them, ask them to intern or have them on probation. "
+      ],
+      "tagline": ""
+    },
+    "section_three": {
+      "title": "We allow you to have all the staying power!",
+      "paras": [
+        "The best part? Our clients are included in every step of the process. They analyze and review talent alongside us. This way, we ensure reliability and maintain trust between each other, which is a bonus of our IT services. "
+      ],
+      "tagline": "Grab our on-demand talent now! "
+    }
+  },
+  "product_management_page": {
+    "title": "Product Management",
+    "subList": [
+      "Perfect for startups and seasoned companies ",
+      "Ideas turned into reality via thorough planning and conception",
+      "Client will be involved every step of the way"
+    ],
+    "section_one": {
+      "title": "Your product is safe with us!",
+      "desc": "As a startup in its infant stages, developing and managing a product is a tedious process. It can be overwhelming and intimidating at first. However, PerfectzDigital gives you a way to overcome that hurdle with ease. It'll be as if you can do it in your sleep!",
+      "url": "/contact",
+      "tagline": "We hand-pick talent that is the missing puzzle piece you've been looking for! "
+    },
+    "section_two": {
+      "title": "Effortless Management",
+      "paras": [
+        "Of course, we will assist you in taking risks, pushing the boundaries of technology, and thinking out of the box. Nothing we do will be ordinary – at PerfectzDigital, we're visionaries. Throughout the lifecycle of your product, we'll answer key questions together.",
+        "Not a startup? Doesn't matter. PerfectzDigital doesn't discriminate against the services we offer. Every one of our clients is entitled to what we have in store. We strongly suggest that our product management services are availed and utilized fully by all organizations. "
+      ],
+      "tagline": "Sign up early to get a head start on manifesting your product!"
+    }
+  },
+  "discovery_workshop_page": {
+    "title": "Discovery Workshops",
+    "subList": [
+      "Workshops specifically curated for your product ",
+      "Designed to encourage open communication and exchange of ideas",
+      "In-depth research, brainstorming, and mind-mapping utilized"
+    ],
+    "section_one": {
+      "title": "Act before it's too late!",
+      "desc": "Discovery workshops are necessary precursors to fully immersing ourselves in product design and management. These are detailed, introspective, and brainstorming sessions used to get our creative and logical juices flowing. It is the best way to have an initial discussion before the big project. ",
+      "url": "/contact",
+      "tagline": ""
+    },
+    "section_two": {
+      "title": "Transparency and honesty equal symbiosis and harmony!",
+      "paras": [
+        "Product development requires a heavy amount of logistical, monetary, and administrative assistance. Knowing details of how much help is needed is crucial to the process. This ensures a seamless build-up from start to finish with minimum hiccups. ",
+        "The workshops target elements such as teamwork, understanding, time management, critical thinking, and more. Additionally, it stresses, therefore, strengthens channels of communication. The project managers, alongside other team heads and members, discuss expectations beforehand. "
+      ],
+      "tagline": ""
+    },
+    "section_three": {
+      "title": "Everything You Need In One Place",
+      "paras": [
+        "During a discovery workshop, the aforementioned questions are answered. The team leads and members prioritize and list down, in terms of urgency, the tasks at hand. Furthermore, they develop a project plan. This includes budgeting, deadlines, and other such factors. ",
+        "Discovery workshops will be held in the beginning. This is to prevent any do-overs in the middle of the project, which will deplete financially, time, and labor resources. "
+      ],
+      "tagline": "Don't miss out! Let's hold a workshop now! "
+    }
+  },
+  "technology_training_page": {
+    "title": "Technology Training",
+    "subList": [
+      "Kickstart freshers on their journey to success",
+      "Learn from new and upcoming perspectives",
+      "Immersive training in programming, software, data analysis and more"
+    ],
+    "section_one": {
+      "title": "Get technology training today! ",
+      "desc": "Employees that have freshly entered the workforce hold deep, untapped potential. We recognize that every fresher needs a stepping stone to build their career and hone their skills. Due to that, we inaugurated our technology training program!",
+      "url": "/contact",
+      "tagline": ""
+    },
+    "section_two": {
+      "title": "Stay with us to find out more!",
+      "paras": [
+        "You might be thinking: why hire freshers? Let us answer that for you! Fresh employees are like premium clay. They are moldable and highly adaptable, willing to learn the tips and tricks of the trade. They contain an eagerness to build their attitude and services as the company requires.  ",
+        "PerfectDigitalz offers premium tools and domains that train freshers specifically for their employer company. We enjoy working with the fascinating, sometimes bizarre but always wonderful, perspectives freshers carry. Why? We get to learn from them as much as they do from us!"
+      ],
+      "tagline": ""
+    },
+    "section_three": {
+      "title": "Become A Well-rounded Individual",
+      "paras": [
+        "The training involves a transfer of expertise, information, and skills to the freshers. We equip them with knowledge about the most advanced and current technological framework. Moreover, we familiarize them with the software and systems required by their company to excel.",
+        "This way, your freshers return to you as freshly baked and painted clay cup that holds immense benefit and know-how within them. By the end of the training, they'll know programming languages, project management data analysis, and software proficiency. "
+      ],
+      "tagline": "Limited seats are available; sign up now! "
+    }
+  },
+  "uiux_design_page": {
+    "title": "UI/UX Design ",
+    "subList": ["Sophisticated design and trend detection", "Use of psychology and data analysis to attract customers", "Specialized to match your brand and aesthetic"],
+    "section_one": {
+      "title": "Designing What Matters The Most",
+      "desc": "Ever want to revamp and reorganize your product to be more eye-catching? Have you struggled to do so? Don't worry; PefectzDigital is here to help! Our modern UI/UX services will leave you feeling renewed and fresh!",
+      "url": "/contact",
+      "tagline": " "
+    },
+    "section_two": {
+      "title": "Get your team of UX/UI designers now!",
+      "paras": [
+        "If you require a clean and minimalist look, your product will have a similar, elegant feel. However, if your brand targets younger generations, the project will be funky and youthful. The Perfect team makes sure that the product represents the brand and attracts customers.",
+        "Initially, we run multiple UX tests to detect what persona favors the brand and attracts a loyal following. Together, we will discuss your objectives and help you get there. Then, our team of designers engineer color palettes and themes that invoke feelings that draw consumers closer.",
+        "UI/UX services include content and data analysis, logo design, brand identity development, branding strategies, and more."
+       ],
+      "tagline": ""
+    }
+  },
+  "services":{
+    "title":"OUR SERVICES",
+    "desc":"The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
+    "services":[
+      {
+        "image":"https://vijeeshin.github.io/per/assets/images/services/attractions.svg",
+        "title":"TECHNOLOGY TRANSFORMATION",
+        "url":"/per/services/technology-transformation"
+      }
+    ]
   }
 }

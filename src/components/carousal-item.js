@@ -29,7 +29,7 @@ export const CarousalItem = ({data}) => {
         </div>
         <div className="flex flex-row justify-center items-center">
           <div className="w-90 h-90">
-            <img src={data.image} className={"object-fit"} />
+            <img src={data.image} alt={data.title} className={"object-fit"} />
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ export const CarousalItem = ({data}) => {
         </h1>
 
         <div className="w-full">
-          <img src={data.image} className={"object-contain"} />
+          <img src={data.image} alt={data.title} className={"object-contain"} />
         </div>
 
         <h4 className="font-montserrat not-italic font-normal  text-2xl text-oslo_gray pb-10">

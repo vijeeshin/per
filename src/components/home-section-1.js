@@ -6,7 +6,7 @@ export const HomeSuccessSection = ({data}) => {
     <div className="grid grid-cols-3 md:grid-cols-2 grid-rows-2 md:grid-rows-1 pb-10">
       <div>
         <div className="w-4/5 p-5 bg-service-arrow-bg bg-contain bg-no-repeat bg-center bg-top  ">
-          <img src={Globe} />
+          <img src={Globe} alt="globe" />
         </div>
       </div>
       <div className=" col-span-2 md:col-span-1 flex flex-col justify-center items-center">

@@ -17,7 +17,7 @@ export const TeamBuilding = () => {
       <div className={"bg-shark "}>
         <div className={"bg-hero-pattern bg-cover bg-right bg-no-repeat "}>
           <div className="container mx-auto  py-5">
-            <Header/>
+            <Header />
             <section>
               <div className=" hidden md:grid md:grid-cols-2 py-44 px-20 ">
                 <div>
@@ -31,7 +31,7 @@ export const TeamBuilding = () => {
                       key={`list-${index}`}
                       className="flex flex-row justify-start items-center"
                     >
-                      <img src={label} />
+                      <img src={label} alt={"label"} />
                       <p className="text-lg tracking-wider text-white px-3">
                         {list}
                       </p>
@@ -50,7 +50,7 @@ export const TeamBuilding = () => {
                       key={`list-${index}`}
                       className="flex flex-row justify-start items-center"
                     >
-                      <img src={label} />
+                      <img src={label} alt={"label"} />
                       <p className="text-lg tracking-wider text-white px-3">
                         {list}
                       </p>
@@ -68,7 +68,11 @@ export const TeamBuilding = () => {
         <div className="grid grid-row grid-cols-1 lg:grid-rows-1  grid-rows-1 lg:grid-cols-2">
           <div className="hidden lg:block">
             <div className="bg-common bg-center hidden md:block  text-center  bg-no-repeat relative top-[-43px] h-[32rem]">
-              <img src={team_builiding} className={"inline mt-10"} />
+              <img
+                src={team_builiding}
+                alt={"team_builiding"}
+                className={"inline mt-10"}
+              />
             </div>
           </div>
           <div className="flex flex-col justify-center items-start px-5 py-10">
@@ -76,7 +80,7 @@ export const TeamBuilding = () => {
               {data.team_building_page.section_one.title}
             </h1>
             <div className="w-full flex flex-row justify-center items-center p-5 lg:hidden">
-              <img src={team_builiding} />
+              <img src={team_builiding} alt={"team_builiding"} />
             </div>
             <p className="text-xl leading-loose text-gray-400 mb-5 font-lato">
               {data.team_building_page.section_one.desc}
@@ -121,7 +125,7 @@ export const TeamBuilding = () => {
               </p>
             </div>
             <div className="col-span-1">
-              <img src={computer_lock} />
+              <img src={computer_lock} alt={"computer_lock"} />
             </div>
           </div>
 

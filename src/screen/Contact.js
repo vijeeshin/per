@@ -23,7 +23,7 @@ function Contact() {
                   </h1>
                 </div>
                 <div className="flex flex-row justify-end items-start text-center">
-                  <img src={contactus} />
+                  <img src={contactus} alt={"contactus"} />
                 </div>
               </div>
               {/** small Screen */}
@@ -32,7 +32,7 @@ function Contact() {
                   {data.contact_page.title}
                 </h1>
                 <div className="flex flex-col justify-center items-start">
-                  <img src={contactus} />
+                  <img src={contactus} alt={"contactus"} />
                 </div>
               </div>
               {/** small Screen */}
@@ -63,7 +63,7 @@ function Contact() {
           </div>
         </div>
       </div>
-     
+
       <FooterSub />
     </>
   );

@@ -5,21 +5,21 @@
         "title": "Design and Build Your Tech-Team",
         "desc": "You’ve come to the right place for fast-track services! Build your team of highly trained professionals seamlessly.",
         "sub": "Design and build your dream team with us!",
-        "image": "http://localhost:3000/assets/images/hero-object-1.svg",
+        "image": "https://perfectzdigital.com/assets/images/hero-object-1.svg",
         "btnUrl": "/services"
       },
       {
         "title": "On-Demand IT Services",
         "desc": "Our available IT talents are committed and diligent individuals who face problems with you, head on. We’ve got your backs, whether it’s training or design.",
         "sub": "No nonsense, no delays, no barriers!",
-        "image": "http://localhost:3000/assets/images/hero-object-2.svg",
+        "image": "https://perfectzdigital.com/assets/images/hero-object-2.svg",
         "btnUrl": "/services"
       },
       {
         "title": "We Help Transform",
         "desc": "Our clients are inspiring pioneers. We provide cutting-edge services that transform your dreams into reality.",
         "sub": "Tech done the way you want, done right!",
-        "image": "http://localhost:3000/assets/images/hero-object-3.svg",
+        "image": "https://perfectzdigital.com/assets/images/hero-object-3.svg",
         "btnUrl": "/services"
       }
     ],
@@ -31,38 +31,38 @@
     "services": [
       {
         "title": "TECH TRANSFORMATION",
-        "url": "http://localhost:3000/services/technology-transformation",
-        "image": "http://localhost:3000/assets/images/home_services/attractions.svg"
+        "url": "https://perfectzdigital.com/services/technology-transformation",
+        "image": "https://perfectzdigital.com/assets/images/home_services/attractions.svg"
       },
       {
         "title": "TEAM BUILDING",
-        "url": "http://localhost:3000/services/team-building",
-        "image": "http://localhost:3000/assets/images/home_services/stream.svg"
+        "url": "https://perfectzdigital.com/services/team-building",
+        "image": "https://perfectzdigital.com/assets/images/home_services/stream.svg"
       },
       {
         "title": "TALENTS ON DEMAND",
-        "url": "http://localhost:3000/services/on-demand-talent",
-        "image": "http://localhost:3000/assets/images/home_services/ads_click.svg"
+        "url": "https://perfectzdigital.com/services/on-demand-talent",
+        "image": "https://perfectzdigital.com/assets/images/home_services/ads_click.svg"
       },
       {
         "title": "PRODUCT MANAGEMENT",
-        "url": "http://localhost:3000/services/product-management",
-        "image": "http://localhost:3000/assets/images/home_services/volunteer_activism.svg"
+        "url": "https://perfectzdigital.com/services/product-management",
+        "image": "https://perfectzdigital.com/assets/images/home_services/volunteer_activism.svg"
       },
       {
         "title": "DISCOVERY WORKSHOP",
-        "url": "http://localhost:3000/services/discovery-workshops",
-        "image": "http://localhost:3000/assets/images/home_services/travel_explore.svg"
+        "url": "https://perfectzdigital.com/services/discovery-workshops",
+        "image": "https://perfectzdigital.com/assets/images/home_services/travel_explore.svg"
       },
       {
         "title": "LATEST TECHNOLOGY TRAINING",
-        "url": "http://localhost:3000/services/technology-training",
-        "image": "http://localhost:3000/assets/images/home_services/magic_button.svg"
+        "url": "https://perfectzdigital.com/services/technology-training",
+        "image": "https://perfectzdigital.com/assets/images/home_services/magic_button.svg"
       },
       {
         "title": "UIUX DESIGN",
-        "url": "http://localhost:3000/services/uiux-design",
-        "image": "http://localhost:3000/assets/images/home_services/dashboard.svg"
+        "url": "https://perfectzdigital.com/services/uiux-design",
+        "image": "https://perfectzdigital.com/assets/images/home_services/dashboard.svg"
       }
     ],
     "latest_technology": {
@@ -70,42 +70,42 @@
       "subTitle": "Join our fast growing global team to unleash your full potential.",
       "tools": [
         {
-          "image": "http://localhost:3000/assets/images/tools/android_studio.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/android_studio.svg",
           "name": "android_studio",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/appstore.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/appstore.svg",
           "name": "appstore",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/xcode.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/xcode.svg",
           "name": "xcode",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/jira.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/jira.svg",
           "name": "jira",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/conflunce.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/conflunce.svg",
           "name": "conflunce",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/figma.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/figma.svg",
           "name": "figma",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/github.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/github.svg",
           "name": "github",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/tools/react.svg",
+          "image": "https://perfectzdigital.com/assets/images/tools/react.svg",
           "name": "react",
           "url": "/"
         }
@@ -123,52 +123,51 @@
       ],
       "technologies": [
         {
-          "image": "http://localhost:3000/assets/images/techs/android.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/android.svg",
           "name": "Android",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/angular.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/angular.svg",
           "name": "angular",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/aws.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/aws.svg",
           "name": "aws",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/figma.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/figma.svg",
           "name": "figma",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/gworkspace.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/gworkspace.svg",
           "name": "gworkspace",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/ios.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/ios.svg",
           "name": "ios",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/java.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/java.svg",
           "name": "java",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/node.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/node.svg",
           "name": "node",
           "url": "/"
         },
         {
-          "image": "http://localhost:3000/assets/images/techs/react.svg",
+          "image": "https://perfectzdigital.com/assets/images/techs/react.svg",
           "name": "react",
           "url": "/"
         }
       ]
-    
     },
     "help": {
       "title": "Help us help you!",
@@ -187,27 +186,27 @@
     },
     "clients": [
       {
-        "image": "http://localhost:3000/assets/images/clients/cakap.svg",
+        "image": "https://perfectzdigital.com/assets/images/clients/cakap.svg",
         "name": "cakap",
         "url": "/"
       },
       {
-        "image": "http://localhost:3000/assets/images/clients/ailoitte.svg",
+        "image": "https://perfectzdigital.com/assets/images/clients/ailoitte.svg",
         "name": "ailoitte",
         "url": "/"
       },
       {
-        "image": "http://localhost:3000/assets/images/clients/boldar.svg",
+        "image": "https://perfectzdigital.com/assets/images/clients/boldar.svg",
         "name": "boldar",
         "url": "/"
       },
       {
-        "image": "http://localhost:3000/assets/images/clients/Cleanline.svg",
+        "image": "https://perfectzdigital.com/assets/images/clients/Cleanline.svg",
         "name": "Cleanline",
         "url": "/"
       },
       {
-        "image": "http://localhost:3000/assets/images/clients/juneit.svg",
+        "image": "https://perfectzdigital.com/assets/images/clients/juneit.svg",
         "name": "juneit",
         "url": "/"
       }
@@ -241,6 +240,247 @@
       ],
       "tagline": "Fill out the form now! "
     }
+  },
+  "courses_page": {
+    "title": "SUPERCHARGE YOUR CAREER WITH OUR TECHNOLOGY TRAINING PROGRAM",
+    "paras": [
+      "With premium study material, project training, Agile process training, and personal development, this is a well-rounded course. It lasts for 2 months, and you can access it from the comfort of your home."
+    ],
+    "menu_items": [
+      {
+        "id": "all",
+        "name": "All Courses",
+        "selected": true
+      },
+      {
+        "id": "front-end",
+        "name": "FrontEnd",
+        "selected": false
+      },
+      {
+        "id": "back-end",
+        "name": "Backend",
+        "selected": false
+      },
+      {
+        "id": "artificial-intelligence",
+        "name": "Artificial Intelligence",
+        "selected": false
+      },
+      {
+        "id": "ux-ui",
+        "name": "UX/UI",
+        "selected": false
+      }
+    ],
+    "courses": [
+      {
+        "name": "Mobile Application Development",
+        "image": "https://perfectzdigital.com/assets/images/courses/main/1.svg",
+        "paras": [
+          "We understand iOS and Android like no other. Our expertise enables us to create complex and intriguing applications. These often go on to become big hits on the Appstore. That is because our programming team helps you formulate an intricate base. This allows for smooth functioning and maximum productivity or entertainment."
+        ],
+        "duration": " 2 Months",
+        "level": "Beginner",
+        "location": "Remote",
+        "tags": ["all", "front-end", "back-end"],
+        "techs": [
+          {
+            "name": "react",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/react.svg"
+          },
+          {
+            "name": "angular",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/angular.svg"
+          },
+          {
+            "name": "go",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/go.svg"
+          },
+          {
+            "name": "conflunce",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/conf.svg"
+          },
+          {
+            "name": "figma",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/figma.svg"
+          },
+          {
+            "name": "jira",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/jira.svg"
+          },
+          {
+            "name": "github",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/github.svg"
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "image": "https://perfectzdigital.com/assets/images/courses/main/2.svg",
+        "paras": [
+          "Our front-end development course provides an in-depth run-through of user interfaces of websites. This course is perfect for developers, web designers, or programmers. It will allow you to grasp the basics of frontend, upon which you can refine your skills. ",
+          "In it, you will learn about software like Github, HTML, JavaScript, CSS, Angular, and more. It's an incredibly beneficial course that looks great on your resume. One that will totally make you an asset to your company. "
+        ],
+        "duration": " 2 Months",
+        "level": "Beginner",
+        "location": "Remote",
+        "tags": ["all", "front-end"],
+        "techs": [
+          {
+            "name": "react",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/react.svg"
+          },
+          {
+            "name": "angular",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/angular.svg"
+          },
+          {
+            "name": "go",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/go.svg"
+          },
+          {
+            "name": "conflunce",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/conf.svg"
+          },
+          {
+            "name": "figma",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/figma.svg"
+          },
+          {
+            "name": "jira",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/jira.svg"
+          },
+          {
+            "name": "github",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/github.svg"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "image": "https://perfectzdigital.com/assets/images/courses/main/3.svg",
+        "paras": [
+          "PerfectzDigital offers backend development courses for beginners and intermediate learners. ",
+          "It's a straightforward, intensive course that involves interactive and detailed learning content. Our team of industry professionals will lead it, with years of academic and practical experience. You can learn at your own pace, making it perfect for those who have preoccupations. "
+        ],
+        "duration": " 2 Months",
+        "level": "Beginner",
+        "location": "Remote",
+        "tags": ["all", "back-end"],
+        "techs": [
+          {
+            "name": "react",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/react.svg"
+          },
+          {
+            "name": "angular",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/angular.svg"
+          },
+          {
+            "name": "go",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/go.svg"
+          },
+          {
+            "name": "conflunce",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/conf.svg"
+          },
+          {
+            "name": "figma",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/figma.svg"
+          },
+          {
+            "name": "jira",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/jira.svg"
+          },
+          {
+            "name": "github",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/github.svg"
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "image": "https://perfectzdigital.com/assets/images/courses/main/4.svg",
+        "paras": [
+          "Our artificial intelligence course is incredibly sought after. The rising demand for experts in AI increases every day. ",
+          "This course teaches predictive analytics, image processing, and natural language processing. Also, our team of trained artificial engineers will discuss how a computer adapts and performs human behavior. "
+            ],
+        "duration": " 2 Months",
+        "level": "Beginner",
+        "location": "Remote",
+        "tags": ["all", "back-end","artificial-intelligence"],
+        "techs": [
+          {
+            "name": "react",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/react.svg"
+          },
+          {
+            "name": "angular",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/angular.svg"
+          },
+          {
+            "name": "go",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/go.svg"
+          },
+          {
+            "name": "conflunce",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/conf.svg"
+          },
+          {
+            "name": "figma",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/figma.svg"
+          },
+          {
+            "name": "jira",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/jira.svg"
+          },
+          {
+            "name": "github",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/github.svg"
+          }
+        ]
+      },
+      {
+        "name": "UX/UI Design",
+        "image": "https://perfectzdigital.com/assets/images/courses/main/5.svg",
+        "paras": ["PerfectzDigital offers UX/UI design with its UX/UI services. If you're intrigued by the discipline and want to know more, you've come to the right place.","Students will learn skills in research, brand development, identity development, logo and web design, and more. We will teach how to wireframe, strategize, and hold discovery workshops. "  ],
+        "duration": " 2 Months",
+        "level": "Beginner",
+        "location": "Remote",
+        "tags": ["all", "back-end","front-end","ux-ui"],
+        "techs": [
+          {
+            "name": "react",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/react.svg"
+          },
+          {
+            "name": "angular",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/angular.svg"
+          },
+          {
+            "name": "go",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/go.svg"
+          },
+          {
+            "name": "conflunce",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/conf.svg"
+          },
+          {
+            "name": "figma",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/figma.svg"
+          },
+          {
+            "name": "jira",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/jira.svg"
+          },
+          {
+            "name": "github",
+            "image": "https://perfectzdigital.com/assets/images/courses/techs/github.svg"
+          }
+        ]
+      }
+    ]
   },
   "team_building_page": {
     "title": "Team Building",
@@ -413,37 +653,37 @@
     "desc": "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
     "services": [
       {
-        "image": "http://localhost:3000/assets/images/services/attractions.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/attractions.svg",
         "title": "TECH TRANSFORMATION",
         "url": "/services/technology-transformation"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/stream.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/stream.svg",
         "title": "TEAM BUILDING",
         "url": "/services/team-building"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/ads_click.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/ads_click.svg",
         "title": "TALENTS ON DEMAND",
         "url": "/services/on-demand-talent"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/volunteer_activism.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/volunteer_activism.svg",
         "title": "PRODUCT MANAGEMENT",
         "url": "/services/product-management"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/travel_explore.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/travel_explore.svg",
         "title": "DISCOVERY WORKSHOP",
         "url": "/services/discovery-workshops"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/magic_button.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/magic_button.svg",
         "title": "LATEST TECHNOLOGY TRAINING",
         "url": "/services/technology-training"
       },
       {
-        "image": "http://localhost:3000/assets/images/services/dashboard.svg",
+        "image": "https://perfectzdigital.com/assets/images/services/dashboard.svg",
         "title": "UI/UX DESIGN",
         "url": "/services/uiux-design"
       }

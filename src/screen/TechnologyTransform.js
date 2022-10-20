@@ -33,7 +33,7 @@ export const TechnologyTransform = () => {
                         key={`list-${index}`}
                         className="flex flex-row justify-start items-center"
                       >
-                        <img src={label} />
+                        <img src={label} alt={'label'} />
                         <p className="text-lg tracking-wider text-white px-3">
                           {list}
                         </p>
@@ -54,7 +54,7 @@ export const TechnologyTransform = () => {
                         key={`list-${index}`}
                         className="flex flex-row justify-start items-center"
                       >
-                        <img src={label} />
+                        <img src={label} alt={'label'} />
                         <p className="text-lg tracking-wider text-white px-3">
                           {list}
                         </p>
@@ -73,7 +73,7 @@ export const TechnologyTransform = () => {
         <div className="grid grid-row grid-cols-1 lg:grid-rows-1  grid-rows-1 lg:grid-cols-2">
           <div className="hidden lg:block">
             <div className="bg-common bg-center hidden md:block  text-center  bg-no-repeat relative top-[-43px] h-[32rem]">
-              <img src={technologytransform} className={"inline mt-10"} />
+              <img src={technologytransform} alt={"technologytransform"} className={"inline mt-10"} />
             </div>
           </div>
           <div className="flex flex-col justify-center items-start px-5 py-10">
@@ -81,7 +81,7 @@ export const TechnologyTransform = () => {
               {data.technology_transformation_page.section_one.title}
             </h1>
             <div className="w-full flex flex-row justify-center items-center p-5 lg:hidden">
-              <img src={technologytransform} />
+              <img src={technologytransform} alt={"technologytransform"} />
             </div>
             <p className="text-xl leading-loose text-gray-400 mb-5 font-lato">
               {data.technology_transformation_page.section_one.desc}
@@ -128,7 +128,7 @@ export const TechnologyTransform = () => {
               </p>
             </div>
             <div className="col-span-1">
-              <img src={our_team} />
+              <img src={our_team} alt={"our_team"}  />
             </div>
           </div>
 

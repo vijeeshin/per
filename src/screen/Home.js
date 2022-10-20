@@ -59,7 +59,11 @@ function Home() {
                     key={`service-${index}`}
                   >
                     <div className=" w-full  flex flex-row justify-end items-center text-right py-10">
-                      <img src={service.image} className="w-18 h-18" />
+                      <img
+                        src={service.image}
+                        alt={service.title}
+                        className="w-18 h-18"
+                      />
                     </div>
                     <span className="text-white text-clip">
                       {service.title}
@@ -90,7 +94,11 @@ function Home() {
                     <div className="inline-block px-3">
                       <div className="w-64 h-64 max-w-xs overflow-hidden  shadow-md  bg-ebony_clay/50  hover:shadow-xl transition-shadow duration-300 ease-in-out">
                         <div className=" flex flex-row justify-end items-center text-right py-10 ">
-                          <img src={service.image} className="w-18 h-18" />
+                          <img
+                            src={service.image}
+                            alt={service.title}
+                            className="w-18 h-18"
+                          />
                         </div>
                         <span className="text-white text-clip px-2">
                           {service.title}
@@ -162,7 +170,7 @@ function Home() {
               </a>
             </div>
             <div className="hidden md:flex flex-row justify-center items-center p-20">
-              <img src={LatestTechnologyImage} />
+              <img src={LatestTechnologyImage} alt={"LatestTechnologyImage"} />
             </div>
           </div>
         </div>
@@ -226,7 +234,7 @@ function Home() {
               </a>
             </div>
             <div className="flex flex-row justify-center items-center">
-              <img src={Help} />
+              <img src={Help} alt={"help"} />
             </div>
           </div>
 
@@ -250,7 +258,7 @@ function Home() {
             </a>
 
             <div className="flex flex-row justify-center items-center mt-10">
-              <img src={HelpSmall} />
+              <img src={HelpSmall} alt={"HelpSmall"} />
             </div>
           </div>
         </div>
@@ -258,7 +266,7 @@ function Home() {
 
       <div className="bg-wild_sand">
         <div className=" flex flex-col items-center justify-center  py-20 px-10 md:px-44">
-          <img src={Designhead} />
+          <img src={Designhead} alt={"Designhead"} />
           <h1 className="text-center text-2xl md:text-5xl font-semibold text-gray-800 font-montserrat py-5">
             {data.home.brand.title}
           </h1>
@@ -332,7 +340,7 @@ function Home() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -26,7 +26,7 @@ function Services() {
                   </h1>
                 </div>
                 <div className="flex flex-row justify-end items-start text-center">
-                  <img src={services_box} />
+                  <img src={services_box} alt={"services_box"} />
                 </div>
               </div>
               {/** small Screen */}
@@ -35,7 +35,7 @@ function Services() {
                   {data.services.title}
                 </h1>
                 <div className="flex flex-col justify-center items-start">
-                  <img src={services_box} />
+                  <img src={services_box} alt={"services_box"} />
                 </div>
               </div>
               {/** small Screen */}

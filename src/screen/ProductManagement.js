@@ -18,7 +18,7 @@ export const ProductManagement = () => {
       <div className={"bg-shark "}>
         <div className={"bg-hero-pattern bg-cover bg-right bg-no-repeat "}>
           <div className="container mx-auto  py-5">
-           <Header/>
+            <Header />
             <section>
               <div className=" hidden md:grid md:grid-cols-2 py-44 px-20 ">
                 <div>
@@ -32,7 +32,7 @@ export const ProductManagement = () => {
                       key={`list-${index}`}
                       className="flex flex-row justify-start items-center"
                     >
-                      <img src={label} />
+                      <img src={label} alt={"label"} />
                       <p className="text-lg tracking-wider text-white px-3">
                         {list}
                       </p>
@@ -51,7 +51,7 @@ export const ProductManagement = () => {
                       key={`list-${index}`}
                       className="flex flex-row justify-start items-center"
                     >
-                      <img src={label} />
+                      <img src={label} alt={"label"} />
                       <p className="text-lg tracking-wider text-white px-3">
                         {list}
                       </p>
@@ -69,7 +69,11 @@ export const ProductManagement = () => {
         <div className="grid grid-row grid-cols-1 lg:grid-rows-1  grid-rows-1 lg:grid-cols-2">
           <div className="hidden lg:block">
             <div className="bg-common bg-center hidden md:block  text-center  bg-no-repeat relative top-[-43px] h-[32rem]">
-              <img src={project_management} className={"inline mt-10"} />
+              <img
+                src={project_management}
+                alt={"project_management"}
+                className={"inline mt-10"}
+              />
             </div>
           </div>
           <div className="flex flex-col justify-center items-start px-5 py-10">
@@ -77,7 +81,7 @@ export const ProductManagement = () => {
               {data.product_management_page.section_one.title}
             </h1>
             <div className="w-full flex flex-row justify-center items-center p-5 lg:hidden">
-              <img src={project_management} />
+              <img src={project_management} alt={"project_management"} />
             </div>
             <p className="text-xl leading-loose text-gray-400 mb-5 font-lato">
               {data.product_management_page.section_one.desc}
@@ -108,21 +112,23 @@ export const ProductManagement = () => {
                 {data.product_management_page.section_two.title}
                 <br />
               </h1>
-              {data.product_management_page.section_two.paras.map((p, index) => (
-                <p
-                  className="text-2xl leading-8 text-gray-100 py-3"
-                  key={`section-two-para-${index}`}
-                >
-                  {p}
-                  <br />
-                </p>
-              ))}
+              {data.product_management_page.section_two.paras.map(
+                (p, index) => (
+                  <p
+                    className="text-2xl leading-8 text-gray-100 py-3"
+                    key={`section-two-para-${index}`}
+                  >
+                    {p}
+                    <br />
+                  </p>
+                )
+              )}
               <p className="text-3xl italic font-mediumitalic text-gray-100">
                 {data.product_management_page.section_two.tagline}
               </p>
             </div>
             <div className="col-span-1">
-              <img src={effortless_management} />
+              <img src={effortless_management} alt={"effortless_management"} />
             </div>
           </div>
 
@@ -143,7 +149,7 @@ export const ProductManagement = () => {
           </div>
         </div>
       </div>
-     
+
       <div className="bg-gray-100 border-t border-black pt-10 md:pb-40 pb-10 ">
         <div className="container mx-auto  ">
           <h1 className="text-5xl font-semibold text-gray-900 text-center">

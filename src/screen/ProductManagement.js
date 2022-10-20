@@ -9,6 +9,7 @@ import project_management from "../assets/images/project-management.svg";
 import effortless_management from "../assets/images/effortless_management.svg";
 import label from "../assets/images/label.svg";
 import { Header } from "../components/header";
+import { FooterSub } from "../components/footer_sub";
 
 
 export const ProductManagement = () => {
@@ -150,56 +151,7 @@ export const ProductManagement = () => {
         </div>
       </div>
 
-      <div className="bg-gray-100 border-t border-black pt-10 md:pb-40 pb-10 ">
-        <div className="container mx-auto  ">
-          <h1 className="text-5xl font-semibold text-gray-900 text-center">
-            Contact Us
-          </h1>
-        </div>
-      </div>
-      <div className="hidden lg:block relative top-[-90px] bg-contact bg-cover py-44 bg-no-repeat">
-        <div className="grid grid-row grid-cols-2">
-          <div></div>
-          <div className="px-40">
-            <BlackLogo />
-            <div className="flex flex-row justify-start items-center mt-10">
-              <Flag />
-              <p className="text-xl font-medium leading-3 font-lato px-2 ">
-                UAE | INDIA
-              </p>
-            </div>
-            <div className="flex flex-row justify-start items-center mt-10 mb-10">
-              <BlackMail />
-              <p className="text-sm leading-3 px-2 font-lato">
-                hello@perfectzdigital.com
-              </p>
-            </div>
-            <Social />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col space-y-6 items-center justify-end flex-1 px-6 py-10 bg-gray-100 md:hidden">
-        form
-      </div>
-
-      <div className="flex flex-col space-y-6 items-center justify-end flex-1 px-6 py-10 bg-anzac md:hidden">
-        <BlackLogo />
-        <div className="flex flex-row justify-start items-center mt-10">
-          <Flag />
-          <p className="text-xl font-medium leading-3 font-lato px-2 ">
-            UAE | INDIA
-          </p>
-        </div>
-        <div className="flex flex-row justify-start items-center mt-10 mb-10">
-          <BlackMail />
-          <p className="text-sm leading-3 px-2 font-lato">
-            hello@perfectzdigital.com
-          </p>
-        </div>
-        <Social />
-      </div>
-      <div className="bg-black "></div>
+      <FooterSub />
     </>
   );
 };

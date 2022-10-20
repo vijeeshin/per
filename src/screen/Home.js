@@ -2,33 +2,16 @@ import "../App.css";
 
 
 import { ReactComponent as ArrowForward } from "../assets/images/arrow-forward-ios.svg";
-import { ReactComponent as Attraction } from "../assets/images/attractions.svg";
-import { ReactComponent as Stream } from "../assets/images/stream.svg";
-import { ReactComponent as Ads } from "../assets/images/ads_click.svg";
-import { ReactComponent as VolunteerActivism } from "../assets/images/volunteer_activism.svg";
-import { ReactComponent as TravelExplore } from "../assets/images/travel_explore.svg";
-import { ReactComponent as MagicButton } from "../assets/images/magic_button.svg";
-import { ReactComponent as Dashboard } from "../assets/images/dashboard.svg";
 import Help from "../assets/images/help.svg";
 import HelpSmall from "../assets/images/help-small.svg";
-import { ReactComponent as BlackLogo } from "../assets/images/black-logo.svg";
-import { ReactComponent as BlackMail } from "../assets/images/black-mail.svg";
-import { ReactComponent as Flag } from "../assets/images/flag.svg";
-import { ReactComponent as Social } from "../assets/images/social.svg";
 import LatestTechnologyImage from "../assets/images/LatestTechnologyImage.svg";
 import Designhead from "../assets/images/designhead.svg";
-import Android from "../assets/images/android.svg";
-import OurServiceImg from "../assets/images/our-services.svg";
-import Globe from "../assets/images/globe.png";
-import cakap from "../assets/images/cakap.svg";
-import juneit from "../assets/images/juneit.svg";
-import Cleanline from "../assets/images/Cleanline.svg";
-import bolder from "../assets/images/bolder.svg";
 import { Header } from "../components/header";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { CarousalItem } from "../components/carousal-item";
 import { HomeSuccessSection } from "../components/home-section-1";
+import { Footer } from "../components/footer";
 
 function Home() {
 
@@ -71,7 +54,7 @@ function Home() {
               {data.home &&
                 data.home.services.map((service, index) => (
                   <a
-                    href={`${service.url}${service.uid}`}
+                    href={`${service.url}`}
                     className="bg-ebony_clay/50 px-5 mx-5 md:mx-0 py-10  md:w-auto"
                     key={`service-${index}`}
                   >
@@ -100,7 +83,7 @@ function Home() {
               {data.home &&
                 data.home.services.map((service, index) => (
                   <a
-                    href={`${service.url}${service.uid}`}
+                    href={`${service.url}`}
                     className="flex flex-nowrap ml-1"
                     key={`service-${index}`}
                   >
@@ -349,75 +332,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="bg-shark bg-client-bg bg-center bg-cover py-44">
-        <div className="container mx-auto">
-          <div className="grid grid-col-1 ">
-            <h1 className="text-5xl font-semibold text-white font-montserrat text-center mb-10">
-              Our Clients
-            </h1>
-            <div className="grid grid-flow-row grid-cols-2 gap-2 md:grid-cols-4 px-10 md:px-0">
-              <div className="p-10 h-full bg-gray-800 flex flex-row justify-center items-center">
-                <img src={cakap} />
-              </div>
-              {data.home.clients.map((client, index) => {
-                <div
-                  className="p-10 h-full bg-gray-800 flex flex-row justify-center items-center"
-                  key={`client-${index}`}
-                >
-                  <img src={client.image} alt={client.name} />
-                </div>;
-              })}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="hidden lg:block relative top-[-90px] bg-contact bg-cover py-44 bg-no-repeat">
-        <div className="grid grid-row grid-cols-2">
-          <div></div>
-          <div className="px-40">
-            <BlackLogo />
-            <div className="flex flex-row justify-start items-center mt-10">
-              <Flag />
-              <p className="text-xl font-medium leading-3 font-lato px-2 ">
-                UAE | INDIA
-              </p>
-            </div>
-            <div className="flex flex-row justify-start items-center mt-10 mb-10">
-              <BlackMail />
-              <p className="text-sm leading-3 px-2 font-lato">
-                hello@perfectzdigital.com
-              </p>
-            </div>
-            <Social />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col space-y-6 items-center justify-end flex-1 px-6 py-10 bg-gray-100 md:hidden">
-        <p className="text-2xl font-semibold text-gray-800">Contact Us</p>
-      </div>
-
-      <div className="flex flex-col space-y-6 items-center justify-end flex-1 px-6 py-10 bg-anzac md:hidden">
-        <BlackLogo />
-        <div className="flex flex-row justify-start items-center mt-10">
-          <Flag />
-          <p className="text-xl font-medium leading-3 font-lato px-2 ">
-            UAE | INDIA
-          </p>
-        </div>
-        <div className="flex flex-row justify-start items-center mt-10 mb-10">
-          <BlackMail />
-          <p className="text-sm leading-3 px-2 font-lato">
-            hello@perfectzdigital.com
-          </p>
-        </div>
-        <Social />
-      </div>
-      <div className="bg-black h-20 flex-row flex justify-start items-center px-10">
-        <p className="text-sm leading-3 text-gray-300">
-          © Copyright {new Date().getFullYear() } | Perfectz Digital
-        </p>
-      </div>
+      <Footer/>
     </>
   );
 }

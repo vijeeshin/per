@@ -5,12 +5,10 @@ import { ReactComponent as BlackLogo } from "../assets/images/black-logo.svg";
 import { ReactComponent as BlackMail } from "../assets/images/black-mail.svg";
 import { ReactComponent as Flag } from "../assets/images/flag.svg";
 import { ReactComponent as Social } from "../assets/images/social.svg";
-import { ReactComponent as Logo } from "../assets/images/logo.svg";
-import { ReactComponent as Letter } from "../assets/images/letter.svg";
-import { ReactComponent as Menu } from "../assets/images/menu.svg";
 import project_management from "../assets/images/project-management.svg";
 import effortless_management from "../assets/images/effortless_management.svg";
 import label from "../assets/images/label.svg";
+import { Header } from "../components/header";
 
 
 export const ProductManagement = () => {
@@ -20,25 +18,7 @@ export const ProductManagement = () => {
       <div className={"bg-shark "}>
         <div className={"bg-hero-pattern bg-cover bg-right bg-no-repeat "}>
           <div className="container mx-auto  py-5">
-            <div className="flex flex-row justify-between items-center px-2 ">
-              <a href="/">
-                <Logo />
-              </a>
-              <div className="flex flex-row justify-between items-center">
-                <div className="flex flex-row justify-between items-center">
-                  <Letter />
-                  <span className="px-2  hidden  sm:inline-flex ">
-                    <a
-                      href="mailto:hello@perfectzdigital.com"
-                      className="text-white"
-                    >
-                      hello@perfectzdigital.com
-                    </a>
-                  </span>
-                </div>
-                <Menu />
-              </div>
-            </div>
+           <Header/>
             <section>
               <div className=" hidden md:grid md:grid-cols-2 py-44 px-20 ">
                 <div>

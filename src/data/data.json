@@ -5,21 +5,21 @@
         "title": "Design and Build Your Tech-Team",
         "desc": "You’ve come to the right place for fast-track services! Build your team of highly trained professionals seamlessly.",
         "sub": "Design and build your dream team with us!",
-        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-1.svg",
+        "image": "http://localhost:3000/assets/images/hero-object-1.svg",
         "btnUrl": "/services"
       },
       {
         "title": "On-Demand IT Services",
         "desc": "Our available IT talents are committed and diligent individuals who face problems with you, head on. We’ve got your backs, whether it’s training or design.",
         "sub": "No nonsense, no delays, no barriers!",
-        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-2.svg",
+        "image": "http://localhost:3000/assets/images/hero-object-2.svg",
         "btnUrl": "/services"
       },
       {
         "title": "We Help Transform",
         "desc": "Our clients are inspiring pioneers. We provide cutting-edge services that transform your dreams into reality.",
         "sub": "Tech done the way you want, done right!",
-        "image": "https://vijeeshin.github.io/per/assets/images/hero-object-3.svg",
+        "image": "http://localhost:3000/assets/images/hero-object-3.svg",
         "btnUrl": "/services"
       }
     ],
@@ -30,46 +30,39 @@
     },
     "services": [
       {
-        "uid": 1,
         "title": "TECH TRANSFORMATION",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/attractions.svg"
+        "url": "http://localhost:3000/services/technology-transformation",
+        "image": "http://localhost:3000/assets/images/home_services/attractions.svg"
       },
       {
-        "uid": 2,
         "title": "TEAM BUILDING",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/stream.svg"
+        "url": "http://localhost:3000/services/team-building",
+        "image": "http://localhost:3000/assets/images/home_services/stream.svg"
       },
       {
-        "uid": 3,
         "title": "TALENTS ON DEMAND",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/ads_click.svg"
+        "url": "http://localhost:3000/services/on-demand-talent",
+        "image": "http://localhost:3000/assets/images/home_services/ads_click.svg"
       },
       {
-        "uid": 4,
         "title": "PRODUCT MANAGEMENT",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/volunteer_activism.svg"
+        "url": "http://localhost:3000/services/product-management",
+        "image": "http://localhost:3000/assets/images/home_services/volunteer_activism.svg"
       },
       {
-        "uid": 5,
         "title": "DISCOVERY WORKSHOP",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/travel_explore.svg"
+        "url": "http://localhost:3000/services/discovery-workshops",
+        "image": "http://localhost:3000/assets/images/home_services/travel_explore.svg"
       },
       {
-        "uid": 6,
         "title": "LATEST TECHNOLOGY TRAINING",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/magic_button.svg"
+        "url": "http://localhost:3000/services/technology-training",
+        "image": "http://localhost:3000/assets/images/home_services/magic_button.svg"
       },
       {
-        "uid": 7,
         "title": "UIUX DESIGN",
-        "url": "https://vijeeshin.github.io/per/services/",
-        "image": "https://vijeeshin.github.io/per/assets/images/home_services/dashboard.svg"
+        "url": "http://localhost:3000/services/uiux-design",
+        "image": "http://localhost:3000/assets/images/home_services/dashboard.svg"
       }
     ],
     "latest_technology": {
@@ -77,8 +70,43 @@
       "subTitle": "Join our fast growing global team to unleash your full potential.",
       "tools": [
         {
-          "image": "https://vijeeshin.github.io/per/assets/images/tools/android.svg",
-          "name": "Android",
+          "image": "http://localhost:3000/assets/images/tools/android_studio.svg",
+          "name": "android_studio",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/appstore.svg",
+          "name": "appstore",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/xcode.svg",
+          "name": "xcode",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/jira.svg",
+          "name": "jira",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/conflunce.svg",
+          "name": "conflunce",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/figma.svg",
+          "name": "figma",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/github.svg",
+          "name": "github",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/tools/react.svg",
+          "name": "react",
           "url": "/"
         }
       ]
@@ -95,11 +123,52 @@
       ],
       "technologies": [
         {
-          "image": "https://vijeeshin.github.io/per/assets/images/tools/android.svg",
+          "image": "http://localhost:3000/assets/images/techs/android.svg",
           "name": "Android",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/angular.svg",
+          "name": "angular",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/aws.svg",
+          "name": "aws",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/figma.svg",
+          "name": "figma",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/gworkspace.svg",
+          "name": "gworkspace",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/ios.svg",
+          "name": "ios",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/java.svg",
+          "name": "java",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/node.svg",
+          "name": "node",
+          "url": "/"
+        },
+        {
+          "image": "http://localhost:3000/assets/images/techs/react.svg",
+          "name": "react",
           "url": "/"
         }
       ]
+    
     },
     "help": {
       "title": "Help us help you!",
@@ -118,8 +187,28 @@
     },
     "clients": [
       {
-        "image": "https://vijeeshin.github.io/per/assets/images/clients/cakap",
+        "image": "http://localhost:3000/assets/images/clients/cakap.svg",
         "name": "cakap",
+        "url": "/"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/clients/ailoitte.svg",
+        "name": "ailoitte",
+        "url": "/"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/clients/boldar.svg",
+        "name": "boldar",
+        "url": "/"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/clients/Cleanline.svg",
+        "name": "Cleanline",
+        "url": "/"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/clients/juneit.svg",
+        "name": "juneit",
         "url": "/"
       }
     ]
@@ -298,7 +387,11 @@
   },
   "uiux_design_page": {
     "title": "UI/UX Design ",
-    "subList": ["Sophisticated design and trend detection", "Use of psychology and data analysis to attract customers", "Specialized to match your brand and aesthetic"],
+    "subList": [
+      "Sophisticated design and trend detection",
+      "Use of psychology and data analysis to attract customers",
+      "Specialized to match your brand and aesthetic"
+    ],
     "section_one": {
       "title": "Designing What Matters The Most",
       "desc": "Ever want to revamp and reorganize your product to be more eye-catching? Have you struggled to do so? Don't worry; PefectzDigital is here to help! Our modern UI/UX services will leave you feeling renewed and fresh!",
@@ -311,19 +404,58 @@
         "If you require a clean and minimalist look, your product will have a similar, elegant feel. However, if your brand targets younger generations, the project will be funky and youthful. The Perfect team makes sure that the product represents the brand and attracts customers.",
         "Initially, we run multiple UX tests to detect what persona favors the brand and attracts a loyal following. Together, we will discuss your objectives and help you get there. Then, our team of designers engineer color palettes and themes that invoke feelings that draw consumers closer.",
         "UI/UX services include content and data analysis, logo design, brand identity development, branding strategies, and more."
-       ],
+      ],
       "tagline": ""
     }
   },
-  "services":{
-    "title":"OUR SERVICES",
-    "desc":"The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
-    "services":[
+  "services": {
+    "title": "OUR SERVICES",
+    "desc": "The tech world is rapidly advancing. Every day, there is a new mind-blowing development. Companies are required to keep up the pace for optimal business. That's where we come in! Modern problems need modern solutions, and we have them! ",
+    "services": [
       {
-        "image":"https://vijeeshin.github.io/per/assets/images/services/attractions.svg",
-        "title":"TECHNOLOGY TRANSFORMATION",
-        "url":"/per/services/technology-transformation"
+        "image": "http://localhost:3000/assets/images/services/attractions.svg",
+        "title": "TECH TRANSFORMATION",
+        "url": "/services/technology-transformation"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/stream.svg",
+        "title": "TEAM BUILDING",
+        "url": "/services/team-building"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/ads_click.svg",
+        "title": "TALENTS ON DEMAND",
+        "url": "/services/on-demand-talent"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/volunteer_activism.svg",
+        "title": "PRODUCT MANAGEMENT",
+        "url": "/services/product-management"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/travel_explore.svg",
+        "title": "DISCOVERY WORKSHOP",
+        "url": "/services/discovery-workshops"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/magic_button.svg",
+        "title": "LATEST TECHNOLOGY TRAINING",
+        "url": "/services/technology-training"
+      },
+      {
+        "image": "http://localhost:3000/assets/images/services/dashboard.svg",
+        "title": "UI/UX DESIGN",
+        "url": "/services/uiux-design"
       }
     ]
+  },
+  "contact_page": {
+    "title": "Let's collaborate and make history!",
+    "subtitle": "contact Us",
+    "paras": [
+      "If you're reading this, you're one step away from making the right choice. If you're looking for tried and tested IT services, we've got you covered. Join us for coffee as we plan and strategize your next move in the industry. With a plethora of remarkable and effective tools in your footsteps, you can look forward to a productive collaboration. ",
+      "All you need to do is fill out a form and book your appointment. Our customer services ensure an immediate answer to kickstart a strong partnership."
+    ],
+    "tagline": "Reach out to us now! "
   }
 }

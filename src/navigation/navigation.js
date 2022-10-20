@@ -15,32 +15,32 @@ import { UIUXDesign } from '../screen/UIUXDesign';
 export const Navigation = () => {
   return (
     <Routes>
-      <Route path="/per/" element={<Home />} />
-      <Route path="/per/services/" element={<Services />} />
-      <Route path="/per/courses/" element={<Courses />} />
-      <Route path="/per/contact/" element={<Contact />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/services/" element={<Services />} />
+      <Route path="/courses/" element={<Courses />} />
+      <Route path="/contact/" element={<Contact />} />
       <Route
-        path="/per/services/technology-transformation"
+        path="/services/technology-transformation"
         element={<TechnologyTransform />}
       />
-      <Route path="/per/services/team-building" element={<TeamBuilding />} />
+      <Route path="/services/team-building" element={<TeamBuilding />} />
       <Route
-        path="/per/services/on-demand-talent"
+        path="/services/on-demand-talent"
         element={<OnDemandTalent />}
       />
       <Route
-        path="/per/services/product-management"
+        path="/services/product-management"
         element={<ProductManagement />}
       />
       <Route
-        path="/per/services/discovery-workshops"
+        path="/services/discovery-workshops"
         element={<DiscoveryWorkshops />}
       />
       <Route
-        path="/per/services/technology-training"
+        path="/services/technology-training"
         element={<TechnologyTraining />}
       />
-      <Route path="/per/services/uiux-design" element={<UIUXDesign />} />
+      <Route path="/services/uiux-design" element={<UIUXDesign />} />
     </Routes>
   );
 }

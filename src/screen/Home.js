@@ -95,7 +95,7 @@ function Home() {
                   >
                     <div className="inline-block px-3">
                       <div className="w-64 h-64 max-w-xs overflow-hidden  shadow-md  bg-ebony_clay/50  hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <div className=" flex flex-row justify-end items-center text-right py-10 ">
+                        <div className=" flex flex-row justify-end items-center text-right py-10 relative mt-[-20px] ">
                           <img
                             src={service.image}
                             alt={service.title}

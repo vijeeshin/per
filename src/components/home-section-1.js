@@ -5,7 +5,7 @@ export const HomeSuccessSection = ({data}) => {
   return (
     <div className="grid grid-cols-3 md:grid-cols-2 grid-rows-2 md:grid-rows-1 pb-10">
       <div>
-        <div className="w-4/5 p-5 bg-service-arrow-bg bg-contain bg-no-repeat bg-center bg-top  ">
+        <div className="w-4/5 p-5 bg-service-arrow-bg bg-contain bg-no-repeat bg-center bg-top relative mt-[-20px] ">
           <img src={Globe} alt="globe" />
         </div>
       </div>

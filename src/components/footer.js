@@ -80,8 +80,8 @@ export const Footer = () => {
         </div>
         <Social />
       </div>
-      <div className="bg-black h-20 flex-row flex justify-start items-center px-10">
-        <p className="text-sm leading-3 text-gray-300">
+      <div className="bg-black h-20 flex-row flex justify-start items-center px-20">
+        <p className="text-sm leading-3 text-gray-300 px-20">
           © Copyright {new Date().getFullYear()} | Perfectz Digital
         </p>
       </div>

@@ -4,7 +4,7 @@ import { ReactComponent as Letter } from "../assets/images/letter.svg";
 import { ReactComponent as Menu } from "../assets/images/menu.svg";
 export const Header = () => {
   return (
-    <div className="flex flex-row justify-between items-center px-0 md:px-20 ">
+    <div className="flex flex-row justify-between items-center px-10 md:px-20 ">
       <a href="/">
         <Logo />
       </a>

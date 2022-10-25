@@ -184,7 +184,7 @@ function Home() {
 
             {data.home.advanced_technology.desc.map((para, index) => (
               <p
-                className="text-xl md:text-3xl  font-medium text-gray-100 mb-5 px-10 md:px-0"
+                className="text-xl md:text-3xl  font-medium text-gray-100 mb-5 px-10 md:px-20"
                 key={`advanced-technology-para-${index}`}
               >
                 {para.para}
@@ -214,7 +214,7 @@ function Home() {
       <div className="bg-anzac">
         <div className="container mx-auto ">
           <div className="hidden md:grid grid-cols-2 py-40 ">
-            <div className="py-24">
+            <div className="py-24 pl-20">
               <h1 className="text-2xl md:text-5xl font-montserrat font-bold text-white mb-10">
                 {data.home.help.title}
               </h1>

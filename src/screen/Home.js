@@ -12,6 +12,7 @@ import { Carousel } from "react-responsive-carousel";
 import { CarousalItem } from "../components/carousal-item";
 import { HomeSuccessSection } from "../components/home-section-1";
 import { Footer } from "../components/footer";
+import useCheckMobileScreen from "../hooks/useCheckMobileScreen";
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
               showThumbs={false}
               showStatus={false}
               showIndicators={false}
+              swipeable={useCheckMobileScreen()?false:true}
             >
               {data &&
                 data.home &&

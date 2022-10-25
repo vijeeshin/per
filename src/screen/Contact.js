@@ -16,7 +16,7 @@ function Contact() {
           <div className="container mx-auto  py-5">
             <Header />
             <section>
-              <div className=" hidden md:grid md:grid-cols-2 py-44 px-20 ">
+              <div className=" hidden md:grid md:grid-cols-2 py-20 px-20 ">
                 <div>
                   <h1 className="font-montserrat not-italic font-bold lg:text-6xl md:text-4xl  text-white pt-20 pb-10">
                     {data.contact_page.title}

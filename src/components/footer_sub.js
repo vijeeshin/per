@@ -40,7 +40,7 @@ export const FooterSub = () => {
                       hello@perfectzdigital.com
                     </p>
                   </div>
-                  <Social />
+                  <a href={"https://in.linkedin.com/company/perfectz-digital"}><Social /></a>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export const FooterSub = () => {
             hello@perfectzdigital.com
           </p>
         </div>
-        <Social />
+        <a href={"https://in.linkedin.com/company/perfectz-digital"}><Social /></a>
       </div>
       <div className="bg-black h-20 flex-row flex justify-start items-center px-10">
         <p className="text-sm leading-3 text-gray-300">

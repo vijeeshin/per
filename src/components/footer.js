@@ -80,8 +80,8 @@ export const Footer = () => {
         </div>
         <a href={"https://in.linkedin.com/company/perfectz-digital"}><Social /></a>
       </div>
-      <div className="bg-black h-20 flex-row flex justify-start items-center px-20">
-        <p className="text-sm leading-3 text-gray-300 px-20">
+      <div className="bg-black h-20 flex-row flex justify-start items-center px-0 md:px-20">
+        <p className="text-sm leading-3 text-gray-300 px-5 md:px-20">
           © Copyright {new Date().getFullYear()} | Perfectz Digital
         </p>
       </div>

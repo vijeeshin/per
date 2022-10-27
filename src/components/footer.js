@@ -30,14 +30,14 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block">
-          <div className="relative  bg-contact bg-cover py-32  bg-no-repeat">
+        <div className="hidden lg:block bg-anzac">
+          <div className="relative    ">
             <div className="container mx-auto">
               <div className="grid grid-row grid-cols-2">
-                <div className="px-28">
+                <div className="px-28 bg-white py-20">
                   <ContactForm />
                 </div>
-                <div className="px-40">
+                <div className=" flex flex-col justify-start items-center py-20">
                   <BlackLogo />
                   <div className="flex flex-row justify-start items-center mt-10">
                     <Flag />

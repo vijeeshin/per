@@ -10,13 +10,35 @@ import {
   loadCaptcha,
   validateCaptcha,
 } from "./ReactCaptcha";
+import useCheckMobileScreen from "../hooks/useCheckMobileScreen";
 
 
 const ContactForm = (props) => {
+  const isMobile = useCheckMobileScreen();
   useEffect(() => {
-    loadCaptcha(6);
-  }, []);
-  let schema = yup.object().shape({
+   if(!isMobile) { loadCaptcha(6);}
+  }, [isMobile]);
+
+  
+  let schema =isMobile?yup.object().shape({
+    fullname: yup
+      .string()
+      .required("Full Name is required")
+      .min(3, "Full Name is too short"),
+    email: yup.string().email().required("Email is required"),
+    phone: yup
+      .string()
+      .required("Phone is required")
+      .matches(
+        /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
+        "Phone number is invalid"
+      ),
+    message: yup
+      .string()
+      .required("Message is required")
+      .min(10, "Message is too short")
+    
+  }):  yup.object().shape({
     fullname: yup
       .string()
       .required("Full Name is required")
@@ -41,6 +63,8 @@ const ContactForm = (props) => {
     reset,
     formState: { errors, isValid },
   } = useForm({ resolver: yupResolver(schema), reValidateMode:"onSubmit" });
+
+  console.log(errors);
   const onSubmit = (data) => {
     if (validateCaptcha(data.captcha) == true) {
       emailjs
@@ -59,12 +83,12 @@ const ContactForm = (props) => {
           (result) => {
            
             reset();
-            loadCaptcha(6);
+           if(!isMobile)  loadCaptcha(6);
           },
           (error) => {
            
             reset();
-            loadCaptcha(6);
+            if(!isMobile)  loadCaptcha(6);
           }
         );
     }
@@ -142,12 +166,12 @@ const ContactForm = (props) => {
           ) : null}
         </div>
 
-        <div className="mb-3">
-          <div className="row">
-            <div className="col-md-3 col-sm-12 col-xs-12">
+        {!isMobile && <div className="mb-3">
+          <div className="">
+            <div className="">
               <LoadCanvasTemplate reloadText={"↻"} reloadColor={"#000"} />
             </div>
-            <div className="col-9 col-sm-12 col-xs-12">
+            <div className="">
               <input
                 style={{ width: "200px" }}
                 {...register("captcha")}
@@ -165,7 +189,7 @@ const ContactForm = (props) => {
               ) : null}
             </div>
           </div>
-        </div>
+        </div>}
         <div className="mb-3">
           <input
             href="#"

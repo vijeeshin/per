@@ -47,20 +47,15 @@ export const loadCaptcha = (
   let length_height_canvas = Math.round(parseInt(length) / 3);
 
   let canvas = document.getElementById("canv"),
-    ctx = canvas.getContext("2d"),
-    img = document.getElementById("image");
+    ctx = canvas.getContext("2d");
   let text = captcha;
-  let x = 12.5;
-  let y = 15;
-  let lineheight = 30;
 
-  let canvas_height = (parseInt(length) - parseInt(length_height_canvas)) * 20;
-  let lines = text.split("\n");
-  let lineLengthOrder = lines.slice(0).sort(function (a, b) {
-    return b.length - a.length;
-  });
+
+
+
+
   ctx.canvas.width = parseInt(length) * 25;
-  ctx.canvas.height = lines.length * lineheight;
+  ctx.canvas.height = (70/100*100);
 
   ctx.fillStyle = backgroundColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);

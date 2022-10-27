@@ -19,15 +19,18 @@ export const FooterSub = () => {
             </h1>
           </div>
         </div>
-        <div className="hidden lg:block bg-anzac">
+        <div className="hidden md:block bg-anzac">
           <div className="relative    ">
-            <div className="container mx-auto">
-              <div className="grid grid-row grid-cols-2">
-                <div className="px-28 bg-white py-20">
+        
+              <div className="flex flex-row items-center">
+                <div className=" bg-white py-20 flex-1 flex-row justify-center items-center text-center ">
+                  <div className='w-1/2 mx-auto'>
                   <ContactForm />
+                  </div>
                 </div>
-                <div className=" flex flex-col justify-start items-center py-20">
-                  <BlackLogo />
+                <div className=" flex-1 flex-col justify-center items-center ">
+                <div className='w-1/2 mx-auto'>
+                <BlackLogo />
                   <div className="flex flex-row justify-start items-center mt-10">
                     <Flag />
                     <p className="text-xl font-medium leading-3 font-lato px-2 ">
@@ -42,8 +45,9 @@ export const FooterSub = () => {
                   </div>
                   <a href={"https://in.linkedin.com/company/perfectz-digital"}><Social /></a>
                 </div>
+                </div>
               </div>
-            </div>
+           
           </div>
         </div>
       </div>

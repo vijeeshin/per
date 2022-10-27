@@ -121,7 +121,7 @@ export class LoadCanvasTemplate extends Component {
     }
 
     LoadCanvasTemplate_HTML =
-      '<div><canvas id="canv"></canvas><div><a id="reload_href"  style="cursor: pointer; color: ' +
+      '<div className="flex flex-row justify-start items-center"><canvas id="canv"></canvas><div><a id="reload_href"  style="cursor: pointer; color: ' +
       reload_color +
       '">' +
       reload_text +

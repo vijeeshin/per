@@ -64,7 +64,7 @@ const ContactForm = (props) => {
     formState: { errors, isValid },
   } = useForm({ resolver: yupResolver(schema), reValidateMode:"onSubmit" });
 
-  console.log(errors);
+ 
   const onSubmit = (data) => {
     if (validateCaptcha(data.captcha) == true) {
       emailjs
@@ -167,11 +167,11 @@ const ContactForm = (props) => {
         </div>
 
         {!isMobile && <div className="mb-3">
-          <div className="">
-            <div className="">
+          <div className=" flex flex-col justify-start item-center">
+            <div className="flex flex-row justify-start item-center">
               <LoadCanvasTemplate reloadText={"↻"} reloadColor={"#000"} />
             </div>
-            <div className="">
+            <div className="flex flex-col justify-start item-center">
               <input
                 style={{ width: "200px" }}
                 {...register("captcha")}

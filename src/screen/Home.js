@@ -177,7 +177,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-shark bg-tech-stack-bg bg-cover bg-no-repeat bg-center sm:h-[700px] flex flex-col justify-center items-center  ">
+      <div className="bg-shark bg-tech-stack-bg bg-cover bg-no-repeat bg-center  flex flex-col justify-center items-center  ">
         <div className="container mx-auto">
           <div className="grid grid-cols-1">
             <h1 className="py-20 text-anzac text-center font-semibold text-2xl xl:text-5xl  font-montserrat px-2">

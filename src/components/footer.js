@@ -17,7 +17,7 @@ export const Footer = () => {
             <h1 className="text-5xl font-semibold text-white font-montserrat text-center mb-10">
               Our Clients
             </h1>
-            <div className="grid grid-flow-row grid-cols-2 gap-2 md:grid-cols-4 px-10 md:px-0">
+            <div className="grid grid-flow-row grid-cols-2 gap-2 md:grid-cols-4 px-10 md:px-20">
              
               {data.home.clients.map((client, index) => {
                 return <div
